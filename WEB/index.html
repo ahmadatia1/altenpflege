@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,14 +8,23 @@
   <body>
     <header>
       <h1>Podcast-App</h1>
-      <img src="./assets/logo.png" alt="Logo" width="200" height="200">
+      <img src="./assets/logo.png" alt="Logo" width="200" height="200" />
     </header>
     <nav>
-      <form action="get">
-        <label for="suche">Suche:</label>
-        <input type="text" name="suche" id="suche"
-               size="20" maxlength="100" pattern="[A-Z][a-zA-Z_0-9]*" required>
-               <input type="submit">
+      <form
+        action="https://labs.inf.fh-dortmund.de/podcastService/testPodcastSearch.php"
+        method="get"
+      >
+        <label for="pctitle">Suche:</label>
+        <input
+          type="text"
+          name="pctitle"
+          id="pctitle"
+          size="20"
+          maxlength="100"
+          required
+        />
+        <input type="submit" />
       </form>
       <span>
         <a href="index.html">Abonnierte Podcasts</a> <strong>|</strong></span
