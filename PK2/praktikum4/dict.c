@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #define m 2
 
-enum boolean  
+enum boolean
 {
-    TRUE,
-    FALSE
+    true,
+    false
 };
 struct dict
 {
@@ -23,95 +23,84 @@ int h(int a)
     return a % m;
 }
 
-
 int member(int a)
 {
-    
-    int key = h(a);
-     
-    if(key < m )
-    {
-       
-        while(hashArray[key]->a != a) {
-            if(hashArray[key]!= NULL )
-            {
-                
-                key++;
-            
-                 key = h(key);
-                 printf("key: %d\n", hashArray[key]->a );
-            }
-            else
-            {
-                return -1;
-                break;
-            }
-            
 
-            
-            
-        }  
-        return 1;    
-   }
-   else if(key >= m)
-   {
+    int hashedKey = h(a);
+
+    // move in array until an empty
+    while (hashArray[hashedKey] != NULL)
+    {
+
+        if (hashArray[hashedKey]->a == a)
+            return 1;
+
+        // go to next cell
+        hashedKey++;
+
+        // wrap around the table
+        hashedKey %= m;
+    }
+
     return -1;
-   }
-   
 }
 
 int insert(int a)
 {
-    element = (struct dict *)malloc(sizeof(struct dict));
-    element->a = a;
-    element->key = h(a);
 
-    while (hashArray[element->key] != NULL && hashArray[element->key]->key != -1)
+    element = (struct dict *)malloc(sizeof(struct dict));
+    int hashedKey = h(a);
+
+    while (hashArray[hashedKey] != NULL && hashArray[hashedKey]->key != -1)
     {
-        // go to next cell
-        element->key++;
-        if (element->key > 2)
+
+        if (member(a) && !hashArray[hashedKey]->status)
         {
-            return 0;
-            break;
+
+            ++hashedKey;
+            hashedKey %= m;
         }
+        else
+        {
+
+            break;
+            return 0;
+        }
+
+        return 1;
     }
 
-    hashArray[element->key] = element;
+    element->a = a;
+    element->key = hashedKey;
+    element->status = true;
+
+    hashArray[hashedKey] = element;
 
     return 1;
 }
 
-
-
-int delete(int a)
+int delete (int a)
 {
-    int key = h(a);
+    int hashedKey = h(a);
 
-    if (key > 0)
+    // move in array until an empty
+    while (hashArray[hashedKey] != NULL)
     {
 
-        while (hashArray[key]->a != a)
+        if (hashArray[hashedKey]->a == a)
         {
-            printf("key: %d", key);
-            if (hashArray[key]->a == a)
-            {
-                
-                free(hashArray[key]);
-                return 1;
-   
-            }
-            key++;
-            key%=m;
-         
+
+            free(hashArray[hashedKey]);
+            hashArray[hashedKey]->status = false;
+            return 1;
         }
-        
-        
-        return -1;
+
+        // go to next cell
+        hashedKey++;
+
+        // wrap around the table
+        hashedKey %= m;
     }
-    else
-    {
-        
-        return -1;
-    }
+
+    return -1;
 }
