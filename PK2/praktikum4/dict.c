@@ -36,20 +36,17 @@ int member(int a)
     
     
 
-    while (!hArray[hKey].status == frei && anzahl < size)
+    while (anzahl < size)
     {
-    
-        printf("test");
             if (hArray[hKey].key == a)
             {
-                printf("test");
                 return 1;
             }
             else if(hArray[hKey].status == geloescht)
             {
                 hKey++;
-                anzahl++;
                 hKey %= size;
+                anzahl++;
 
             }
     }  
@@ -89,20 +86,7 @@ int insert(int a)
     }
 
     return -1;
-    // while (hArray[hKey].status == belegt)
-    // {
-        
-    //     if(anzahl >= size)
-    //     {
-    //         break;
-    //     }
-    // }
-
-    
-
-        
-
-        
+       
 }
 
 
@@ -114,7 +98,8 @@ int delete (int a)
     {
             if (hArray[hKey].key == a)
             {
-                 hArray[hKey].status = geloescht;
+                
+                hArray[hKey].status = geloescht;
                 hArray[hKey].key = -1;
                 return 1;
             }
@@ -128,23 +113,5 @@ int delete (int a)
     }  
  
      return -1;
-    // while (hArray[hKey] != NULL)
-    // {
-
-    //     if (hArray[hKey]->a == a)
-    //     {
-
-    //         free(hArray[hKey]);
-    //         hArray[hKey]->status = false;
-    //         return 1;
-    //     }
-
-  
-    //     hKey++;
-
-       
-    //     hKey %= m;
-    // }
-
    
 }
