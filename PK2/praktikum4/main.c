@@ -5,8 +5,8 @@
 int main()
 {
 
-    
-printf("%d\n",insert(1));
+
+printf("%d\n", insert(1));
 printf("%d\n",insert(1));
 printf("%d\n",delete(1));
 printf("%d\n",insert(5));
