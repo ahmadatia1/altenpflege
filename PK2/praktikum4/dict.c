@@ -7,16 +7,16 @@ enum boolean
     true,
     false
 };
-struct dict
+struct dict 
 {
     int key;
     int a;
     enum boolean status;
 };
 
-struct dict *hashArray[m];
+struct dict *hArray[m];
 struct dict *element;
-typedef struct dict *elementToDelete;
+
 
 int h(int a)
 {
@@ -26,20 +26,19 @@ int h(int a)
 int member(int a)
 {
 
-    int hashedKey = h(a);
+    int hKey = h(a);
 
-    // move in array until an empty
-    while (hashArray[hashedKey] != NULL)
+
+    while (hArray[hKey] != NULL)
     {
 
-        if (hashArray[hashedKey]->a == a)
+        if (hArray[hKey]->a == a)
             return 1;
 
-        // go to next cell
-        hashedKey++;
+    
+        hKey++;
 
-        // wrap around the table
-        hashedKey %= m;
+        hKey %= m;
     }
 
     return -1;
@@ -48,17 +47,17 @@ int member(int a)
 int insert(int a)
 {
 
-    element = (struct dict *)malloc(sizeof(struct dict));
-    int hashedKey = h(a);
+    element = malloc(sizeof(struct dict));
+    int hKey = h(a);
 
-    while (hashArray[hashedKey] != NULL && hashArray[hashedKey]->key != -1)
+    while (hArray[hKey] != NULL && hArray[hKey]->key != -1)
     {
 
-        if (member(a) && !hashArray[hashedKey]->status)
+        if (member(a) && !hArray[hKey]->status)
         {
 
-            ++hashedKey;
-            hashedKey %= m;
+            ++hKey;
+            hKey %= m;
         }
         else
         {
@@ -71,35 +70,35 @@ int insert(int a)
     }
 
     element->a = a;
-    element->key = hashedKey;
+    element->key = hKey;
     element->status = true;
 
-    hashArray[hashedKey] = element;
+    hArray[hKey] = element;
 
     return 1;
 }
 
 int delete (int a)
 {
-    int hashedKey = h(a);
+    int hKey = h(a);
 
-    // move in array until an empty
-    while (hashArray[hashedKey] != NULL)
+   
+    while (hArray[hKey] != NULL)
     {
 
-        if (hashArray[hashedKey]->a == a)
+        if (hArray[hKey]->a == a)
         {
 
-            free(hashArray[hashedKey]);
-            hashArray[hashedKey]->status = false;
+            free(hArray[hKey]);
+            hArray[hKey]->status = false;
             return 1;
         }
 
-        // go to next cell
-        hashedKey++;
+  
+        hKey++;
 
-        // wrap around the table
-        hashedKey %= m;
+       
+        hKey %= m;
     }
 
     return -1;
