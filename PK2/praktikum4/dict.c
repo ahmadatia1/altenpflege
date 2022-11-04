@@ -7,21 +7,25 @@ enum boolean
     true,
     false
 };
-struct dict 
+typedef struct  
 {
     int key;
     int a;
     enum boolean status;
-};
+} dict;
 
-struct dict *hArray[m];
-struct dict *element;
+//Zeiger auf dict von typ array
+dict *hArray[m];
 
+//zeiger auf dict
+dict *element;
 
+// Hashwert erstellen 
 int h(int a)
 {
     return a % m;
 }
+
 
 int member(int a)
 {
