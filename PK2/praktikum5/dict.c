@@ -22,20 +22,18 @@ int insert(int a)
 
     int hKey = h(a);
     hArray[hKey] = (struct dict *)malloc(sizeof(struct dict));
-    if(hArray[hKey]!=NULL)
+    if (hArray[hKey] != NULL)
     {
 
         hArray[hKey]->key = a;
         hArray[hKey]->next = top[hKey];
         top[hKey] = hArray[hKey];
         return 1;
-     }
-     else
-     {
+    }
+    else
+    {
         return 0;
-     }
-
-    
+    }
 }
 
 int member(int a)
@@ -60,7 +58,7 @@ int member(int a)
     return 0;
 }
 
-int delete(int a)
+int delete (int a)
 {
     int hKey = h(a);
     struct dict *tmp = top[hKey];
@@ -82,8 +80,6 @@ int delete(int a)
 
     return 0;
 }
-
-
 
 void display(int a)
 {
