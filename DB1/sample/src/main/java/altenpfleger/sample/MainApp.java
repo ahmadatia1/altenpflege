@@ -7,14 +7,14 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.util.*;
 
-import altenpfleger.sample.dbservices.DBManager;
+import altenpfleger.sample.dbservices.*;
 
 import java.io.IOException;
 
 
 public class MainApp extends Application {
     private static Stage stage;
-
+    
     
 	@SuppressWarnings("exports")
 	@Override
@@ -29,7 +29,7 @@ public class MainApp extends Application {
 
     static void setRoot(String fxml, String title) throws IOException {
     	
-        	DBManager.connectDB();
+        		DBManager.connectDB();
 			
 				Scene  scene = new Scene(loadFXML(fxml));
 				

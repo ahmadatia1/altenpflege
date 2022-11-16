@@ -13,6 +13,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.text.Text;
+
 import java.util.*;
 
 
@@ -26,13 +27,19 @@ public class Controller implements Initializable {
     private Text text1;
     
     @FXML
-    private void btnClickAction(ActionEvent event) throws IOException {
+    private void startButton(ActionEvent event) throws IOException {
     	
     	
     	 MainApp.setRoot("Dienstplan", "Dienstplan");
     	
     	 
         
+    }
+    
+    @FXML
+    private void dienstplanHinzufuegen(ActionEvent event) throws IOException
+    {
+    	MainApp.setRoot("Formular", "Formular");
     }
     
     @Override
