@@ -10,7 +10,7 @@ private static final String url ="jdbc:oracle:thin:@172.22.112.100:1521:fbpool";
 private static final String username = "C##FBPOOL16";
 private static final String password = "oracle";
 
-private static Connection con;
+public static Connection con;
 
 
 public static void connectDB()
@@ -28,7 +28,6 @@ public static void connectDB()
 	}
 
 }
-
 
 
 public static void closeDB() throws SQLException

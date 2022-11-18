@@ -10,6 +10,7 @@ import java.util.*;
 import altenpfleger.sample.dbservices.*;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 
 public class MainApp extends Application {
@@ -18,9 +19,19 @@ public class MainApp extends Application {
     
 	@SuppressWarnings("exports")
 	@Override
-    public void start( Stage s) throws IOException {
+    public void start( Stage s) throws IOException, SQLException {
+		
+		DBManager.connectDB();
         stage=s;
         setRoot("Start","Start");
+        
+        
+    	
+    	
+		
+	
+		
+		
     }
 
     static void setRoot(String fxml) throws IOException {
@@ -29,7 +40,7 @@ public class MainApp extends Application {
 
     static void setRoot(String fxml, String title) throws IOException {
     	
-        		DBManager.connectDB();
+    	
 			
 				Scene  scene = new Scene(loadFXML(fxml));
 				
