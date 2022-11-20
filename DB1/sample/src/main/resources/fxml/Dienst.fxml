@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="793.0" prefWidth="546.0" style="-fx-pref-width: 1080; -fx-pref-height: 600; -fx-background-color: #f1f1f1;" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="altenpfleger.sample.controller.DienstController">
+   <children>
+      <TableView id="datenTabelle" fx:id="tabelleData" editable="true" layoutX="11.0" layoutY="72.0" minWidth="1059.0" prefHeight="445.0" prefWidth="1060.0" style="-fx-min-width: 1060; -fx-min-height: 400; -fx-border-color: #eee; -fx-background-color: #fff; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 2, 0, 0, 0);">
+        <columns>
+          
+          <TableColumn fx:id="ALTENPFLEGE_ID_ALTENPFLEGE" prefWidth="195.428560256958" text="ALTENPFLEGE_ID_ALTENPFLEGE" />
+            <TableColumn fx:id="PATIENT_ID_PATIENT" prefWidth="143.99998474121094" text="PATIENT_ID_PATIENT" />
+            <TableColumn fx:id="ARBEITSBEGINN" prefWidth="203.42861938476562" text="ARBEITSBEGINN" />
+            <TableColumn fx:id="ARBEITSENDE" prefWidth="174.2857666015625" text="ARBEITSENDE" />
+            
+ 			
+			 
+        </columns>
+      </TableView>
+      <HBox alignment="CENTER" layoutX="11.0" layoutY="20.0" prefHeight="51.0" prefWidth="239.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#dienstplanHinzufuegen" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-cursor: hand;" styleClass="buttonHover" stylesheets="@../styles/Styles.css">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">
+                     <image>
+                        <Image url="@../assests/plus.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#editButton" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-cursor: hand;" styleClass="buttonHover" stylesheets="@../styles/Styles.css">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">
+                     <image>
+                        <Image url="@../assests/edit.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#deleteButton" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-cursor: hand;" styleClass="buttonHover" stylesheets="@../styles/Styles.css">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">
+                     <image>
+                        <Image url="@../assests/delete.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="309.0" layoutY="527.0" prefHeight="63.0" prefWidth="417.0" style="-fx-background-color: #fff; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 2, 0, 0, 0);">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-cursor: hand;" styleClass="buttonHover" stylesheets="@../styles/Styles.css">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">
+                     <image>
+                        <Image url="@../assests/betreuer.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-cursor: hand;" styleClass="buttonHover" stylesheets="@../styles/Styles.css">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">
+                     <image>
+                        <Image url="@../assests/couple.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-cursor: hand;" styleClass="buttonHover" stylesheets="@../styles/Styles.css">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">
+                     <image>
+                        <Image url="@../assests/address.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-cursor: hand;" styleClass="buttonHover" stylesheets="@../styles/Styles.css">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">
+                     <image>
+                        <Image url="@../assests/doctor.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-cursor: hand;" styleClass="buttonHover" stylesheets="@../styles/Styles.css">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">
+                     <image>
+                        <Image url="@../assests/planen.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

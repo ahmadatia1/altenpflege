@@ -21,7 +21,7 @@ public class MainApp extends Application {
 	@Override
     public void start( Stage s) throws IOException, SQLException {
 		
-		DBManager.connectDB();
+		
         stage=s;
         setRoot("Start","Start");
         
@@ -38,7 +38,7 @@ public class MainApp extends Application {
         setRoot(fxml,stage.getTitle());
     }
 
-    static void setRoot(String fxml, String title) throws IOException {
+    public static void setRoot(String fxml, String title) throws IOException {
     	
     	
 			
