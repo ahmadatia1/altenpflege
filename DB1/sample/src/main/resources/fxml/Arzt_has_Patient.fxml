@@ -8,17 +8,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="793.0" prefWidth="546.0" style="-fx-pref-width: 1080; -fx-pref-height: 600; -fx-background-color: #f1f1f1;" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="altenpfleger.sample.controller.PatientController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="716.0" prefWidth="546.0" style="-fx-pref-width: 1080; -fx-pref-height: 600; -fx-background-color: #f1f1f1;" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="altenpfleger.sample.controller.Arzt_has_PatientController">
    <children>
-      <TableView id="datenTabelle" fx:id="tabelleData" editable="true" layoutX="11.0" layoutY="72.0" minWidth="1059.0" prefHeight="445.0" prefWidth="1060.0" style="-fx-min-width: 1060; -fx-min-height: 400; -fx-border-color: #eee; -fx-background-color: #fff; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 2, 0, 0, 0);">
+      <TableView id="datenTabelle" fx:id="tabelleData" editable="true" layoutX="11.0" layoutY="72.0" minHeight="378.0" minWidth="727.0" prefHeight="443.0" prefWidth="1060.0" style="-fx-min-width: 1060; -fx-min-height: 400; -fx-border-color: #eee; -fx-background-color: #fff; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 2, 0, 0, 0);" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="72.0">
         <columns>
           
-          <TableColumn fx:id="id_patient" prefWidth="75.0" text="Id_patient" />
-            <TableColumn fx:id="anrede" prefWidth="75.0" text="anrede" />
-            <TableColumn fx:id="nachname" prefWidth="75.0" text="nachname" />
-            <TableColumn fx:id="vorname" prefWidth="75.0" text="vorname" />
-            <TableColumn fx:id="KVnummer" prefWidth="75.0" text="KVnummer" />
- 			<TableColumn fx:id="Geburtsdatum" prefWidth="75.0" text="Geburtsdatum" />
+          <TableColumn fx:id="arzt_id_arzt" prefWidth="195.428560256958" text="arzt_id_arzt" />
+            <TableColumn fx:id="patient_id_patient" prefWidth="143.99998474121094" text="patient_id_patient" />
+            <TableColumn fx:id="krankheit" prefWidth="203.42861938476562" text="krankheit" />
+            <TableColumn fx:id="wunschtermin" prefWidth="174.2857666015625" text="wunschtermin" />
+            
+ 			
 			 
         </columns>
       </TableView>

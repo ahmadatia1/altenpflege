@@ -8,18 +8,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="793.0" prefWidth="546.0" style="-fx-pref-width: 1080; -fx-pref-height: 600; -fx-background-color: #f1f1f1;" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="altenpfleger.sample.controller.PatientController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="793.0" prefWidth="546.0" style="-fx-pref-width: 1080; -fx-pref-height: 600; -fx-background-color: #f1f1f1;" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="altenpfleger.sample.controller.AltenpflegerController">
    <children>
       <TableView id="datenTabelle" fx:id="tabelleData" editable="true" layoutX="11.0" layoutY="72.0" minWidth="1059.0" prefHeight="445.0" prefWidth="1060.0" style="-fx-min-width: 1060; -fx-min-height: 400; -fx-border-color: #eee; -fx-background-color: #fff; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 2, 0, 0, 0);">
         <columns>
           
-          <TableColumn fx:id="id_patient" prefWidth="75.0" text="Id_patient" />
+          <TableColumn fx:id="id_altenpfleger" prefWidth="75.0" text="id_altenpfleger" />
             <TableColumn fx:id="anrede" prefWidth="75.0" text="anrede" />
             <TableColumn fx:id="nachname" prefWidth="75.0" text="nachname" />
             <TableColumn fx:id="vorname" prefWidth="75.0" text="vorname" />
-            <TableColumn fx:id="KVnummer" prefWidth="75.0" text="KVnummer" />
- 			<TableColumn fx:id="Geburtsdatum" prefWidth="75.0" text="Geburtsdatum" />
-			 
+            <TableColumn fx:id="geburtsdatum" prefWidth="75.0" text="geburtsdatum" />
+            <TableColumn fx:id="mail" prefWidth="75.0" text="mail" />
+ 			<TableColumn fx:id="tel" prefWidth="75.0" text="tel" />
+
         </columns>
       </TableView>
       <HBox alignment="CENTER" layoutX="11.0" layoutY="20.0" prefHeight="51.0" prefWidth="239.0">
@@ -54,8 +55,9 @@
          </children>
       </HBox>
       
-       <fx:include source="Menu.fxml" />
-       
+     <fx:include source="Menu.fxml" />
+     
+      
       <Button fx:id="speichernButton" mnemonicParsing="false" onAction="#speichernEvent" style="-fx-background-color: transparnt;" visible="false" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="28.0">
          <graphic>
             <ImageView fitHeight="27.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);">

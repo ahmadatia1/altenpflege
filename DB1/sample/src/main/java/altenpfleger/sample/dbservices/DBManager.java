@@ -61,6 +61,13 @@ public static void printSQLException(SQLException ex) {
 	ex.printStackTrace(System.err);
 }
 
+public static void sendQuery(String querey) throws SQLException
+{
+	Statement stmt = DBManager.con.createStatement();
+	ResultSet rs = stmt.executeQuery(querey);
+	
+	System.out.println("Number of records: " + rs.getWarnings());
+}
 
 public static void closeDB() throws SQLException
 {

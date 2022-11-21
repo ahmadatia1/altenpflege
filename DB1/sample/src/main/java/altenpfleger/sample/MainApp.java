@@ -24,25 +24,20 @@ public class MainApp extends Application {
 		
         stage=s;
         setRoot("Start","Start");
-        
-        
-    	
-    	
-		
-	
-		
 		
     }
 
     static void setRoot(String fxml) throws IOException {
         setRoot(fxml,stage.getTitle());
     }
-
+    
     public static void setRoot(String fxml, String title) throws IOException {
     	
     	
 			
 				Scene  scene = new Scene(loadFXML(fxml));
+				
+				
 				
 		        stage.setTitle(title);
 		        stage.setScene(scene);
@@ -52,6 +47,8 @@ public class MainApp extends Application {
 
     private static Parent loadFXML(String fxml) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MainApp.class.getResource("/fxml/"+fxml + ".fxml"));
+        
+        
         return fxmlLoader.load();
     }
 

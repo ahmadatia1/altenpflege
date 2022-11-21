@@ -23,6 +23,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
@@ -43,7 +44,8 @@ public class DienstController implements Initializable {
 	
 	
 	
-	
+	@FXML private Button einfuegenButton;
+	@FXML private Button speichernButton;
 
 		
 		
@@ -62,7 +64,6 @@ public class DienstController implements Initializable {
     private void editButton(ActionEvent event) throws IOException {
     	
     	
-    	
     	// anrede Listener für Aktualisieren 
     	ARBEITSBEGINN.setEditable(true);
     	ARBEITSBEGINN.setCellFactory(TextFieldTableCell.forTableColumn());
@@ -74,11 +75,6 @@ public class DienstController implements Initializable {
 			public void handle(CellEditEvent<Dienst, String> event) {
 				
 				Dienst d = event.getRowValue();
-				
-				System.out.println( event.getNewValue());
-				
-					
-				
 				Alert alert = new Alert(AlertType.CONFIRMATION);
 		    	alert.setTitle("Update");
 		    	alert.setHeaderText("ARBEITSBEGINN ändern und aktualisieren");
@@ -94,23 +90,26 @@ public class DienstController implements Initializable {
 		    					+ " Set ARBEITSBEGINN='" + event.getNewValue() + "'" 
 		    					+ " where ALTENPFLEGE_ID_ALTENPFLEGE='" + event.getRowValue().getALTENPFLEGE_ID_ALTENPFLEGE() +"' and " 
 		    					+ " PATIENT_ID_PATIENT='" + event.getRowValue().getPATIENT_ID_PATIENT()+"'";
-						Dienst.updateDienst(querey);
+		    			DBManager.sendQuery(querey);
+						d.setARBEITSBEGINN(event.getNewValue());
+						
+						tabelleData.refresh();
 					} catch (SQLException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+						DBManager.printSQLException(e);
+						d.setARBEITSBEGINN(event.getOldValue());
 					}
 		    		
-					d.setARBEITSBEGINN(event.getNewValue());
+		    		ARBEITSBEGINN.setEditable(false);
+					ARBEITSENDE.setEditable(false);
+		    		
 					
-					tabelleData.refresh();
 		    	} else {
 		    		
-		    		 alert = new Alert(AlertType.ERROR);
-			    	
-			    	 result = alert.showAndWait();
+		    		alert = new Alert(AlertType.ERROR);
+			    	result = alert.showAndWait();
 			    	tabelleData.refresh();
-		    	   d.setARBEITSBEGINN(event.getOldValue());
-		    	   tabelleData.refresh();
+			    	d.setARBEITSBEGINN(event.getOldValue());
+		    	   	tabelleData.refresh();
 		    	   
 		    	}
 				
@@ -148,16 +147,23 @@ public class DienstController implements Initializable {
 		    					+ " Set ARBEITSENDE='" + event.getNewValue() + "'" 
 		    					+ " where ALTENPFLEGE_ID_ALTENPFLEGE='" + event.getRowValue().getALTENPFLEGE_ID_ALTENPFLEGE() +"' and " 
 		    					+ " PATIENT_ID_PATIENT='" + event.getRowValue().getPATIENT_ID_PATIENT()+"'";
-						Dienst.updateDienst(querey);
-					} catch (SQLException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+		    			DBManager.sendQuery(querey);
+						d.setARBEITSENDE(event.getNewValue());
+					
+						tabelleData.refresh();
+					} 
+		    		catch (SQLException e) 
+		    		{
+						DBManager.printSQLException(e);
+						d.setARBEITSENDE(event.getOldValue());
 					}
 		    		
-					d.setARBEITSENDE(event.getNewValue());
+		    		ARBEITSBEGINN.setEditable(false);
+					ARBEITSENDE.setEditable(false);
 					
-					tabelleData.refresh();
-		    	} else {
+		    	} 
+		    	else 
+		    	{
 		    	   d.setARBEITSENDE(event.getOldValue());
 		    	   tabelleData.refresh();
 		    	   
@@ -190,16 +196,18 @@ public class DienstController implements Initializable {
 
 	    	Optional<ButtonType> result = alert.showAndWait();
 	    	if (result.get() == ButtonType.OK){
-	    		String querey = "delete from dienst where ALTENPFLEGE_ID_ALTENPFLEGE='" 
-	    				+ d.getALTENPFLEGE_ID_ALTENPFLEGE() +"'" 
+	    		String querey = "delete from dienst where ALTENPFLEGE_ID_ALTENPFLEGE='" + d.getALTENPFLEGE_ID_ALTENPFLEGE() +"'" 
 	    				+ "and PATIENT_ID_PATIENT='" + d.getPATIENT_ID_PATIENT()+"'";
 	    		
 	    		try {
-					Dienst.removeDienst(querey);
-				} catch (SQLException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+	    			DBManager.sendQuery(querey);
+				} 
+	    		catch (SQLException e) 
+	    		{
+					DBManager.printSQLException(e);
 				}
+	    		
+	    		
 	    		
 	    		boolean status = tabelleData.getItems().remove(d);
 	    		System.out.print(status);
@@ -221,22 +229,137 @@ public class DienstController implements Initializable {
     
     
     @FXML
-    private void dienstplanHinzufuegen(ActionEvent event) throws IOException
+    private void einfuegenEvent(ActionEvent event) throws IOException
     {
     	
-    	dienst.add(new Dienst( (dienst.size()+1)+ "", "", "", ""));
-    	System.out.println(dienst.size());
-    	try {
-			String querey = "insert into patient values (5, '', '', '', 'test', '')";
-					
-			Patient.insertPatient(querey);
-		} catch (SQLException e) {
+    	dienst.add(new Dienst("hier ändern", "hier ändern", "hier ändern", "hier ändern"));
+    	
+    	
+    	
+    	// anrede Listener für Aktualisieren 
+    	ALTENPFLEGE_ID_ALTENPFLEGE.setEditable(true);
+    	ALTENPFLEGE_ID_ALTENPFLEGE.setCellFactory(TextFieldTableCell.forTableColumn());
+    	ALTENPFLEGE_ID_ALTENPFLEGE.setCellValueFactory(new PropertyValueFactory<Dienst, String>("ALTENPFLEGE_ID_ALTENPFLEGE"));
+    	
+    	ALTENPFLEGE_ID_ALTENPFLEGE.setOnEditCommit(new EventHandler<CellEditEvent<Dienst, String>>(){
+
+			@Override
+			public void handle(CellEditEvent<Dienst, String> event) {
+				
+				Dienst d = event.getRowValue();
+				d.setALTENPFLEGE_ID_ALTENPFLEGE(event.getNewValue());	
+				ALTENPFLEGE_ID_ALTENPFLEGE.setEditable(false);
+				tabelleData.refresh();
+				
+
+			}
 			
-			e.getMessage();
-		}
+    		
+    	});
     	
-    	this.editButton(event);
+    	// anrede Listener für Aktualisieren 
+    	PATIENT_ID_PATIENT.setEditable(true);
+    	PATIENT_ID_PATIENT.setCellFactory(TextFieldTableCell.forTableColumn());
+    	PATIENT_ID_PATIENT.setCellValueFactory(new PropertyValueFactory<Dienst, String>("PATIENT_ID_PATIENT"));
     	
+    	PATIENT_ID_PATIENT.setOnEditCommit(new EventHandler<CellEditEvent<Dienst, String>>(){
+
+			@Override
+			public void handle(CellEditEvent<Dienst, String> event) {
+				
+				Dienst d = event.getRowValue();
+		    	d.setPATIENT_ID_PATIENT(event.getNewValue());
+		    	
+		    	PATIENT_ID_PATIENT.setEditable(false);
+				tabelleData.refresh();
+		    
+				
+				
+				
+			}
+			
+    		
+    	});
+    	
+    	// anrede Listener für Aktualisieren 
+    	ARBEITSBEGINN.setEditable(true);
+    	ARBEITSBEGINN.setCellFactory(TextFieldTableCell.forTableColumn());
+    	ARBEITSBEGINN.setCellValueFactory(new PropertyValueFactory<Dienst, String>("ARBEITSBEGINN"));
+    	
+    	ARBEITSBEGINN.setOnEditCommit(new EventHandler<CellEditEvent<Dienst, String>>(){
+
+			@Override
+			public void handle(CellEditEvent<Dienst, String> event) {
+				
+				Dienst d = event.getRowValue();
+				d.setARBEITSBEGINN(event.getNewValue());
+				ARBEITSBEGINN.setEditable(false);
+				tabelleData.refresh();
+
+			}
+			
+    		
+    	});
+    	
+    	
+    	// ARBEITSENDE Listener für Aktualisieren 
+    	ARBEITSENDE.setEditable(true);
+    	ARBEITSENDE.setCellFactory(TextFieldTableCell.forTableColumn());
+    	ARBEITSENDE.setCellValueFactory(new PropertyValueFactory<Dienst, String>("ARBEITSENDE"));
+    	
+    	ARBEITSENDE.setOnEditCommit(new EventHandler<CellEditEvent<Dienst, String>>(){
+
+			@Override
+			public void handle(CellEditEvent<Dienst, String> event) {
+				
+				Dienst d = event.getRowValue();
+				d.setARBEITSENDE(event.getNewValue());
+				ARBEITSENDE.setEditable(false);
+				tabelleData.refresh();
+
+			}
+    		
+    	});
+    	
+    	
+    	this.speichernButton.setVisible(true);
+    	this.einfuegenButton.setVisible(false);
+    	
+
+    }
+    
+    
+    
+    @FXML
+    public void speichernEvent(ActionEvent event)
+    {
+    	
+    	Dienst d = dienst.get(dienst.size()-1);
+    	System.out.print(d.getALTENPFLEGE_ID_ALTENPFLEGE());
+    	
+    	if(!d.getALTENPFLEGE_ID_ALTENPFLEGE().isEmpty() && !d.getPATIENT_ID_PATIENT().isEmpty())
+    	{
+    		
+    		String queryString = "INSERT INTO Dienst (ALTENPFLEGE_ID_ALTENPFLEGE, PATIENT_ID_PATIENT, ARBEITSBEGINN, ARBEITSENDE) "
+    		+ "VALUES (" + d.getALTENPFLEGE_ID_ALTENPFLEGE() + ", " + d.getPATIENT_ID_PATIENT() + ", '" + d.getARBEITSBEGINN() + "'," + "'" + d.getARBEITSENDE() + "')";
+    		
+        	try {
+    			DBManager.sendQuery(queryString);
+    			
+    			
+    		} catch (SQLException e) {
+    			DBManager.printSQLException(e);
+    		}	
+    		
+
+    	}
+    	else	
+    	{
+    		System.out.print("Error");
+    	}
+    	
+    	this.speichernButton.setVisible(false);
+    	this.einfuegenButton.setVisible(true);
     	
     	
     }
@@ -247,12 +370,11 @@ public class DienstController implements Initializable {
     	
     	String queryString = "select ALTENPFLEGE_ID_ALTENPFLEGE, PATIENT_ID_PATIENT,TO_CHAR(ARBEITSBEGINN,'DD.MM.YYYY HH:MM:SS'),  TO_CHAR(ARBEITSENDE,'DD.MM.YYYY HH:MM:SS') from dienst";
     	try {
-			d = Dienst.sendQuery(queryString);
-			
+			d = Dienst.getAlleDatenDienst(queryString);
+			System.out.print(d);
 			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			DBManager.printSQLException(e);
 		}	
 		
 		dienst.addAll(d);

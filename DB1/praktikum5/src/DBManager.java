@@ -26,6 +26,8 @@ public static void connect()
 			+ "and a.idartikel = w.idartikel "
 			+ "and k.anrede ='Herr'";
 	
+	
+	
 	try(Connection con = DriverManager.getConnection(url, username, password))
 	{
 		Class.forName("oracle.jdbc.driver.OracleDriver");

@@ -3,6 +3,7 @@ package altenpfleger.sample.model;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.*;
 
 import javafx.beans.property.SimpleIntegerProperty;
@@ -174,15 +175,7 @@ public class Dienst {
 
 
 
-
-
-
-
-
-
-
-
-	public static ArrayList<Dienst> sendQuery(String querey) throws SQLException
+	public static ArrayList<Dienst> getAlleDatenDienst(String querey) throws SQLException
 	{
 		ArrayList<Dienst> data = new ArrayList<Dienst>();
 		
@@ -206,35 +199,6 @@ public class Dienst {
 		return data;
 	}
 	
-	public static void updateDienst(String querey) throws SQLException
-	{
-		PreparedStatement stmt = DBManager.con.prepareStatement(querey);
-		ResultSet rs = stmt.executeQuery();
-		int del = stmt.executeUpdate();
-		System.out.println("Number of updated records: " + del);
-	}
 	
-	public static void removeDienst(String querey) throws SQLException
-	{
-		
-		PreparedStatement stmt = DBManager.con.prepareStatement(querey);
-		ResultSet rs = stmt.executeQuery();
-		int del = stmt.executeUpdate();
-		System.out.println("Number of deleted records: " + del);
-		
-	}
-	
-	public static void insertDienst(String querey) throws SQLException
-	{
-		PreparedStatement stmt = DBManager.con.prepareStatement(querey);
-		ResultSet rs = stmt.executeQuery();
-		int insert = stmt.executeUpdate();
-		System.out.println("Number of inserted records: " + insert);
-	}
-
-
-
-
-
 
 }

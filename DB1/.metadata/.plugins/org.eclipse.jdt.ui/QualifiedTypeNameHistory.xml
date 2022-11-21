@@ -13,4 +13,12 @@
     <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
     <fullyQualifiedTypeName name="javafx.scene.control.PasswordField"/>
     <fullyQualifiedTypeName name="altenpfleger.sample.model.Dienst"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="altenpfleger.sample.model.Artz"/>
+    <fullyQualifiedTypeName name="altenpfleger.sample.model.Arzt_has_Patient"/>
+    <fullyQualifiedTypeName name="altenpfleger.sample.model.Adresse"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.AnchorPane"/>
+    <fullyQualifiedTypeName name="javafx.scene.Parent"/>
+    <fullyQualifiedTypeName name="altenpfleger.sample.MainApp"/>
 </qualifiedTypeNameHistroy>

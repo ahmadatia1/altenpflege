@@ -3,9 +3,9 @@ package altenpfleger.sample.model;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.*;
 
-import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import altenpfleger.sample.dbservices.DBManager;
 
@@ -194,18 +194,19 @@ public class Patient {
 
 
 
-	public static ArrayList<Patient> sendQuery(String querey) throws SQLException
+	public static ArrayList<Patient> getAlleDatenPatient(String querey) throws SQLException
 	{
 		ArrayList<Patient> data = new ArrayList<Patient>();
 		
 		try
 		{
+			
 			PreparedStatement stmt = DBManager.con.prepareStatement(querey);
 			ResultSet rs = stmt.executeQuery();
 			while(rs.next())
 			{
-
-				
+				System.out.print("test2");
+				System.out.print(rs.getString(1));
 				data.add(new Patient(rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6)));
 			}
 			
@@ -218,35 +219,6 @@ public class Patient {
 		return data;
 	}
 	
-	public static void updatePatient(String querey) throws SQLException
-	{
-		PreparedStatement stmt = DBManager.con.prepareStatement(querey);
-		ResultSet rs = stmt.executeQuery();
-		int del = stmt.executeUpdate();
-		System.out.println("Number of updated records: " + del);
-	}
 	
-	public static void removePatient(String querey) throws SQLException
-	{
-		
-		PreparedStatement stmt = DBManager.con.prepareStatement(querey);
-		ResultSet rs = stmt.executeQuery();
-		int del = stmt.executeUpdate();
-		System.out.println("Number of deleted records: " + del);
-		
-	}
-	
-	public static void insertPatient(String querey) throws SQLException
-	{
-		PreparedStatement stmt = DBManager.con.prepareStatement(querey);
-		ResultSet rs = stmt.executeQuery();
-		int insert = stmt.executeUpdate();
-		System.out.println("Number of inserted records: " + insert);
-	}
-
-
-
-
-
 
 }

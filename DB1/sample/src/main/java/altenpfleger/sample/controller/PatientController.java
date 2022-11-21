@@ -10,6 +10,7 @@ import java.net.URL;
 import java.sql.SQLException;
 
 import altenpfleger.sample.dbservices.DBManager;
+import altenpfleger.sample.model.Dienst;
 import altenpfleger.sample.model.Patient;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
@@ -21,6 +22,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
@@ -41,7 +43,8 @@ public class PatientController implements Initializable {
 	private ArrayList<Patient> p;
 	
 	
-	
+	@FXML private Button einfuegenButton;
+	@FXML private Button speichernButton;
   
     
     
@@ -71,11 +74,6 @@ public class PatientController implements Initializable {
 			public void handle(CellEditEvent<Patient, String> event) {
 				
 				Patient p = event.getRowValue();
-				
-				System.out.println( event.getNewValue());
-				
-					
-				
 				Alert alert = new Alert(AlertType.CONFIRMATION);
 		    	alert.setTitle("Update");
 		    	alert.setHeaderText("Anrede ändern und aktualisieren");
@@ -90,23 +88,25 @@ public class PatientController implements Initializable {
 		    			String querey = "update patient"
 		    					+ " Set anrede='" + event.getNewValue() + "'" 
 		    					+ " where id_patient='" + event.getRowValue().getId_patient()+"'";
-						Patient.updatePatient(querey);
+		    			DBManager.sendQuery(querey);
+						p.setAnrede(event.getNewValue());
 					} catch (SQLException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+						
+						DBManager.printSQLException(e);
+						 p.setAnrede(event.getOldValue());
 					}
 		    		
-					p.setAnrede(event.getNewValue());
+					
 					
 					tabelleData.refresh();
 		    	} else {
 		    		
 		    		 alert = new Alert(AlertType.ERROR);
-			    	alert.setContentText("Bitte geben Sie entweder Herr odr Frau ein!!!");
+		    		 alert.setContentText("Bitte geben Sie entweder Herr odr Frau ein!!!");
 			    	 result = alert.showAndWait();
-			    	tabelleData.refresh();
-		    	   p.setAnrede(event.getOldValue());
-		    	   tabelleData.refresh();
+			    	 tabelleData.refresh();
+			    	 p.setAnrede(event.getOldValue());
+			    	 tabelleData.refresh();
 		    	   
 		    	}
 				
@@ -143,16 +143,19 @@ public class PatientController implements Initializable {
 		    			String querey = "update patient"
 		    					+ " Set nachname='" + event.getNewValue() + "'" 
 		    					+ " where id_patient='" + event.getRowValue().getId_patient()+"'";
-						Patient.updatePatient(querey);
-					} catch (SQLException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+		    			DBManager.sendQuery(querey);
+						p.setNachname(event.getNewValue());
+					} 
+		    		catch (SQLException e) 
+		    		{
+						DBManager.printSQLException(e);
 					}
 		    		
-					p.setNachname(event.getNewValue());
-					
 					tabelleData.refresh();
-		    	} else {
+					
+		    	} 
+		    	else 
+		    	{
 		    	   p.setNachname(event.getOldValue());
 		    	   tabelleData.refresh();
 		    	   
@@ -189,16 +192,18 @@ public class PatientController implements Initializable {
 		    			String querey = "update patient"
 		    					+ " Set vorname='" + event.getNewValue() + "'" 
 		    					+ " where id_patient='" + event.getRowValue().getId_patient()+"'";
-						Patient.updatePatient(querey);
-					} catch (SQLException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+		    			DBManager.sendQuery(querey);
+					} catch (SQLException e) 
+		    		{
+						DBManager.printSQLException(e);
 					}
 		    		
 					p.setVorname(event.getNewValue());
 					
 					tabelleData.refresh();
-		    	} else {
+		    	} 
+		    	else 
+		    	{
 		    	   p.setVorname(event.getOldValue());
 		    	   tabelleData.refresh();
 		    	   
@@ -235,7 +240,7 @@ public class PatientController implements Initializable {
 		    			String querey = "update patient"
 		    					+ " Set KVnummer='" + event.getNewValue() + "'" 
 		    					+ " where id_patient='" + event.getRowValue().getId_patient()+"'";
-						Patient.updatePatient(querey);
+		    			DBManager.sendQuery(querey);
 					} catch (SQLException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
@@ -281,10 +286,11 @@ public class PatientController implements Initializable {
 		    			String querey = "update patient"
 		    					+ " Set Geburtsdatum='" + event.getNewValue() + "'" 
 		    					+ " where id_patient='" + event.getRowValue().getId_patient()+"'";
-						Patient.updatePatient(querey);
-					} catch (SQLException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+		    			DBManager.sendQuery(querey);
+					} 
+		    		catch (SQLException e) 
+		    		{
+						DBManager.printSQLException(e);
 					}
 		    		
 					p.setGeburtsdatum(event.getNewValue());
@@ -328,16 +334,19 @@ public class PatientController implements Initializable {
 	    		String querey = "delete from patient where id_patient=" + p.getId_patient();
 	    		
 	    		try {
-					Patient.removePatient(querey);
-				} catch (SQLException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+	    			DBManager.sendQuery(querey);
+				} 
+	    		catch (SQLException e) 
+	    		{
+					DBManager.printSQLException(e);
 				}
 	    		
 	    		boolean status = tabelleData.getItems().remove(p);
 	    		System.out.print(status);
 	    	    
-	    	} else {
+	    	} 
+	    	else 
+	    	{
 	    		
 	    		System.out.print("kein Datensatz ausgewählt !!!");
 	    	    
@@ -354,22 +363,175 @@ public class PatientController implements Initializable {
     
     
     @FXML
-    private void dienstplanHinzufuegen(ActionEvent event) throws IOException
+    private void einfuegenEvent(ActionEvent event) throws IOException
     {
     	
-    	patient.add(new Patient( (patient.size()+1)+ "", "", "", "", "", ""));
-    	System.out.println(patient.size());
-    	try {
-			String querey = "insert into patient values (5, '', '', '', 'test', '')";
-					
-			Patient.insertPatient(querey);
-		} catch (SQLException e) {
+    	patient.add(new Patient("hier ändern", "hier ändern", "hier ändern", "hier ändern", "hier ändern", "hier ändern"));
+    	
+    	// anrede Listener für Aktualisieren 
+    	id_patient.setEditable(true);
+    	id_patient.setCellFactory(TextFieldTableCell.forTableColumn());
+    	id_patient.setCellValueFactory(new PropertyValueFactory<Patient, String>("id_patient"));
+    	
+    	id_patient.setOnEditCommit(new EventHandler<CellEditEvent<Patient, String>>(){
+
+			@Override
+			public void handle(CellEditEvent<Patient, String> event) {
+				
+				Patient p = event.getRowValue();
+				p.setId_patient(event.getNewValue());	
+				id_patient.setEditable(false);
+				tabelleData.refresh();
+				
+
+			}
 			
-			e.getMessage();
-		}
+    		
+    	});
     	
-    	this.editButton(event);
     	
+    	// anrede Listener für Aktualisieren 
+    	anrede.setEditable(true);
+    	anrede.setCellFactory(TextFieldTableCell.forTableColumn());
+    	anrede.setCellValueFactory(new PropertyValueFactory<Patient, String>("anrede"));
+    	
+    	anrede.setOnEditCommit(new EventHandler<CellEditEvent<Patient, String>>(){
+
+			@Override
+			public void handle(CellEditEvent<Patient, String> event) {
+				
+				Patient p = event.getRowValue();
+				p.setAnrede(event.getNewValue());	
+				anrede.setEditable(false);
+				tabelleData.refresh();
+				
+
+			}
+			
+    		
+    	});
+    	
+    	// anrede Listener für Aktualisieren 
+    	nachname.setEditable(true);
+    	nachname.setCellFactory(TextFieldTableCell.forTableColumn());
+    	nachname.setCellValueFactory(new PropertyValueFactory<Patient, String>("nachname"));
+    	
+    	nachname.setOnEditCommit(new EventHandler<CellEditEvent<Patient, String>>(){
+
+			@Override
+			public void handle(CellEditEvent<Patient, String> event) {
+				
+				Patient p = event.getRowValue();
+				p.setNachname(event.getNewValue());	
+				nachname.setEditable(false);
+				tabelleData.refresh();
+				
+
+			}
+			
+    		
+    	});
+    	
+    	// anrede Listener für Aktualisieren 
+    	vorname.setEditable(true);
+    	vorname.setCellFactory(TextFieldTableCell.forTableColumn());
+    	vorname.setCellValueFactory(new PropertyValueFactory<Patient, String>("vorname"));
+    	
+    	vorname.setOnEditCommit(new EventHandler<CellEditEvent<Patient, String>>(){
+
+			@Override
+			public void handle(CellEditEvent<Patient, String> event) {
+				
+				Patient p = event.getRowValue();
+				p.setVorname(event.getNewValue());	
+				vorname.setEditable(false);
+				tabelleData.refresh();
+				
+
+			}
+			
+    		
+    	});
+    	
+    	// anrede Listener für Aktualisieren 
+    	KVnummer.setEditable(true);
+    	KVnummer.setCellFactory(TextFieldTableCell.forTableColumn());
+    	KVnummer.setCellValueFactory(new PropertyValueFactory<Patient, String>("KVnummer"));
+    	
+    	KVnummer.setOnEditCommit(new EventHandler<CellEditEvent<Patient, String>>(){
+
+			@Override
+			public void handle(CellEditEvent<Patient, String> event) {
+				
+				Patient p = event.getRowValue();
+				p.setKVnummer(event.getNewValue());	
+				KVnummer.setEditable(false);
+				tabelleData.refresh();
+				
+
+			}
+			
+    		
+    	});
+    	
+    	// anrede Listener für Aktualisieren 
+    	Geburtsdatum.setEditable(true);
+    	Geburtsdatum.setCellFactory(TextFieldTableCell.forTableColumn());
+    	Geburtsdatum.setCellValueFactory(new PropertyValueFactory<Patient, String>("Geburtsdatum"));
+    	
+    	Geburtsdatum.setOnEditCommit(new EventHandler<CellEditEvent<Patient, String>>(){
+
+			@Override
+			public void handle(CellEditEvent<Patient, String> event) {
+				
+				Patient p = event.getRowValue();
+				p.setGeburtsdatum(event.getNewValue());	
+				Geburtsdatum.setEditable(false);
+				tabelleData.refresh();
+				
+
+			}
+			
+    		
+    	});
+    	
+    	this.speichernButton.setVisible(true);
+    	this.einfuegenButton.setVisible(false);	
+    	
+    }
+    
+    
+    
+    @FXML
+    public void speichernEvent(ActionEvent event)
+    {
+    	
+    	Patient p = patient.get(patient.size()-1);
+    	
+    	
+    	if(!p.getId_patient().isEmpty())
+    	{
+    		
+    		String queryString = "INSERT INTO Patient (id_patient, anrede, nachname, vorname, KVnummer, Geburtsdatum)"
+    		+ "VALUES (" + p.getId_patient()+ ", '" + p.getAnrede() + "', '" + p.getNachname() + "', '" + p.getVorname()  + "', '" + p.getKVnummer() + "', '" + p.getGeburtsdatum() + "')";
+    		
+        	try {
+        		DBManager.sendQuery(queryString);
+    			
+    			
+    		} catch (SQLException e) {
+    			DBManager.printSQLException(e);
+    		}	
+    		
+
+    	}
+    	else	
+    	{
+    		System.out.print("Error");
+    	}
+    	
+    	this.speichernButton.setVisible(false);
+    	this.einfuegenButton.setVisible(true);
     	
     	
     }
@@ -377,17 +539,20 @@ public class PatientController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
     	
+    
     	
     	String queryString = "select id_patient, Anrede, Nachname, Vorname, KVnummer, TO_CHAR(Geburtsdatum,'DD.MM.YYYY') From patient";
     	try {
-			p = Patient.sendQuery(queryString);
-			
+    		
+			this.p = Patient.getAlleDatenPatient(queryString);
+			System.out.print("test");
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			
 		}	
-		
+	
 		patient.addAll(p);
     	
     	id_patient.setCellValueFactory(new PropertyValueFactory<>("id_patient"));

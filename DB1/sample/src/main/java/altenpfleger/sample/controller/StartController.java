@@ -11,21 +11,18 @@ import java.sql.SQLException;
 
 import altenpfleger.sample.*;
 import altenpfleger.sample.dbservices.DBManager;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
-import javafx.scene.control.Label;
+
 import javafx.scene.control.PasswordField;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+
+
 import javafx.scene.control.TextField;
 import javafx.scene.control.Alert.AlertType;
-import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.text.Text;
 
 import java.util.*;
 
@@ -50,7 +47,7 @@ public class StartController implements Initializable {
     	
     	if(DBManager.connectionStatus)
     	{
-    		MainApp.setRoot("Dienst", "Dienst");
+    		MainApp.setRoot("Altenpfleger", "Altenpfleger");
     		
     	}
     	else
