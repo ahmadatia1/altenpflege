@@ -36,7 +36,13 @@ import javafx.scene.text.Text;
 
 import java.util.*;
 
-
+/**
+ *  Klasse PatientController kontrolliert der View bzw. Adresse.fxml Datei
+ *  Events werden augeführt, Textfeldern werden bearbeiten und neue Werte gespeichert, etc..
+ *  
+ * @author Ahmad, Akram, Nour 
+ *
+ */
 public class PatientController implements Initializable {
 	
 
@@ -57,7 +63,15 @@ public class PatientController implements Initializable {
     @FXML private TableColumn<Patient, String> nachname;
  
     
-   
+    /**
+     *  die Methode editButton wird aufgerufen, wenn der Edit icon geklickt wird
+     *  wird EditEvent für die Textfeldern in der Tabelle angehört 
+     *  und bei neuen Wertern sowohl in db als auch in der List Patient aktualisiert 
+     *  
+     * @param event verantwotlich für Anhörung einer Aktion
+     * @author Ahmad, Akram, Nour 
+     *
+     */
     @FXML
     private void editButton(ActionEvent event) throws IOException {
     	
@@ -90,23 +104,27 @@ public class PatientController implements Initializable {
 		    					+ " where id_patient='" + event.getRowValue().getId_patient()+"'";
 		    			DBManager.sendQuery(querey);
 						p.setAnrede(event.getNewValue());
+						anrede.setEditable(false);
 					} catch (SQLException e) {
 						
-						DBManager.printSQLException(e);
-						 p.setAnrede(event.getOldValue());
+						String err = DBManager.printSQLException(e);
+						alert = new Alert(AlertType.ERROR);
+						alert.setContentText(err);
+						result = alert.showAndWait();
+						p.setAnrede(event.getOldValue());
+						anrede.setEditable(true);
 					}
 		    		
 					
 					
 					tabelleData.refresh();
-		    	} else {
+		    	} 
+		    	else 
+		    	{
 		    		
-		    		 alert = new Alert(AlertType.ERROR);
-		    		 alert.setContentText("Bitte geben Sie entweder Herr odr Frau ein!!!");
-			    	 result = alert.showAndWait();
-			    	 tabelleData.refresh();
-			    	 p.setAnrede(event.getOldValue());
-			    	 tabelleData.refresh();
+		    		anrede.setEditable(true);
+		    		p.setAnrede(event.getOldValue());
+		    	   	tabelleData.refresh();
 		    	   
 		    	}
 				
@@ -145,10 +163,15 @@ public class PatientController implements Initializable {
 		    					+ " where id_patient='" + event.getRowValue().getId_patient()+"'";
 		    			DBManager.sendQuery(querey);
 						p.setNachname(event.getNewValue());
+						nachname.setEditable(false);
 					} 
 		    		catch (SQLException e) 
 		    		{
-						DBManager.printSQLException(e);
+		    			String err = DBManager.printSQLException(e);
+						alert = new Alert(AlertType.ERROR);
+						alert.setContentText(err);
+						result = alert.showAndWait();
+						nachname.setEditable(true);
 					}
 		    		
 					tabelleData.refresh();
@@ -156,11 +179,13 @@ public class PatientController implements Initializable {
 		    	} 
 		    	else 
 		    	{
-		    	   p.setNachname(event.getOldValue());
-		    	   tabelleData.refresh();
+		    		nachname.setEditable(true);
+		    		
+		    		p.setAnrede(event.getOldValue());
+		    	   	tabelleData.refresh();
 		    	   
 		    	}
-				
+		    	
 				
 				
 			}
@@ -193,17 +218,24 @@ public class PatientController implements Initializable {
 		    					+ " Set vorname='" + event.getNewValue() + "'" 
 		    					+ " where id_patient='" + event.getRowValue().getId_patient()+"'";
 		    			DBManager.sendQuery(querey);
+		    			p.setVorname(event.getNewValue());
+		    			vorname.setEditable(false);
 					} catch (SQLException e) 
 		    		{
-						DBManager.printSQLException(e);
+						String err = DBManager.printSQLException(e);
+						alert = new Alert(AlertType.ERROR);
+						alert.setContentText(err);
+						result = alert.showAndWait();
+						vorname.setEditable(true);
 					}
 		    		
-					p.setVorname(event.getNewValue());
+					
 					
 					tabelleData.refresh();
 		    	} 
 		    	else 
 		    	{
+		    		vorname.setEditable(true);
 		    	   p.setVorname(event.getOldValue());
 		    	   tabelleData.refresh();
 		    	   
@@ -241,15 +273,21 @@ public class PatientController implements Initializable {
 		    					+ " Set KVnummer='" + event.getNewValue() + "'" 
 		    					+ " where id_patient='" + event.getRowValue().getId_patient()+"'";
 		    			DBManager.sendQuery(querey);
+		    			p.setKVnummer(event.getNewValue());
+		    			KVnummer.setEditable(false);
 					} catch (SQLException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+						String err = DBManager.printSQLException(e);
+						alert = new Alert(AlertType.ERROR);
+						alert.setContentText(err);
+						result = alert.showAndWait();
+						KVnummer.setEditable(true);
 					}
 		    		
-					p.setKVnummer(event.getNewValue());
+				
 					
 					tabelleData.refresh();
 		    	} else {
+		    		KVnummer.setEditable(true);
 		    	   p.setKVnummer(event.getOldValue());
 		    	   tabelleData.refresh();
 		    	   
@@ -287,16 +325,23 @@ public class PatientController implements Initializable {
 		    					+ " Set Geburtsdatum='" + event.getNewValue() + "'" 
 		    					+ " where id_patient='" + event.getRowValue().getId_patient()+"'";
 		    			DBManager.sendQuery(querey);
+		    			p.setGeburtsdatum(event.getNewValue());
+		    			Geburtsdatum.setEditable(false);
 					} 
 		    		catch (SQLException e) 
 		    		{
-						DBManager.printSQLException(e);
+		    			String err = DBManager.printSQLException(e);
+						alert = new Alert(AlertType.ERROR);
+						alert.setContentText(err);
+						result = alert.showAndWait();
+						Geburtsdatum.setEditable(true);
 					}
 		    		
-					p.setGeburtsdatum(event.getNewValue());
+					
 					
 					tabelleData.refresh();
 		    	} else {
+		    		Geburtsdatum.setEditable(true);
 		    	   p.setGeburtsdatum(event.getOldValue());
 		    	   tabelleData.refresh();
 		    	   
@@ -314,7 +359,14 @@ public class PatientController implements Initializable {
    	
     }
     
-    
+    /**
+     *  die Methode deleteButton wird aufgerufen, wenn der delete icon geklickt wird
+     *  wird DeleteEvent angehört, um einer Patient in db und auch in der Liste zulöschen
+     *  
+     * @param event verantwotlich für Anhörung einer Aktion
+     * @author Ahmad, Akram, Nour 
+     *
+     */
     @FXML
     private void deleteButton(ActionEvent event) throws IOException
     {
@@ -325,9 +377,8 @@ public class PatientController implements Initializable {
     	if(p!=null)
     	{
 			Alert alert = new Alert(AlertType.CONFIRMATION);
-	    	alert.setTitle("Confirmation Dialog");
-	    	alert.setHeaderText("Look, a Confirmation Dialog");
-	    	alert.setContentText("Are you ok with this?");
+	    	alert.setTitle("Patient löschen");
+	    	alert.setContentText("Wollen Sie es sicher löschen?");
 
 	    	Optional<ButtonType> result = alert.showAndWait();
 	    	if (result.get() == ButtonType.OK){
@@ -338,7 +389,10 @@ public class PatientController implements Initializable {
 				} 
 	    		catch (SQLException e) 
 	    		{
-					DBManager.printSQLException(e);
+	    			String err = DBManager.printSQLException(e);
+					alert = new Alert(AlertType.ERROR);
+					alert.setContentText(err);
+					result = alert.showAndWait();
 				}
 	    		
 	    		boolean status = tabelleData.getItems().remove(p);
@@ -361,7 +415,17 @@ public class PatientController implements Initializable {
     
     
     
-    
+    /**
+     *  die Methode einfuegenEvent wird aufgerufen, wenn der plus icon geklickt wird
+     *  wird einfuegenEvent für die Textfeldern in der Tabelle angehört. 
+     *  zuerst wird default werte in der Textfeldern eingesetzt 
+     *  und nach Berarbeitung werden die Werte in der Liste Patient 
+     *  und in der Tabelle gespeichert
+     *  
+     * @param event verantwotlich für Anhörung einer Aktion
+     * @author Ahmad, Akram, Nour 
+     *
+     */
     @FXML
     private void einfuegenEvent(ActionEvent event) throws IOException
     {
@@ -380,7 +444,7 @@ public class PatientController implements Initializable {
 				
 				Patient p = event.getRowValue();
 				p.setId_patient(event.getNewValue());	
-				id_patient.setEditable(false);
+				
 				tabelleData.refresh();
 				
 
@@ -402,7 +466,7 @@ public class PatientController implements Initializable {
 				
 				Patient p = event.getRowValue();
 				p.setAnrede(event.getNewValue());	
-				anrede.setEditable(false);
+				
 				tabelleData.refresh();
 				
 
@@ -423,7 +487,7 @@ public class PatientController implements Initializable {
 				
 				Patient p = event.getRowValue();
 				p.setNachname(event.getNewValue());	
-				nachname.setEditable(false);
+				
 				tabelleData.refresh();
 				
 
@@ -444,7 +508,7 @@ public class PatientController implements Initializable {
 				
 				Patient p = event.getRowValue();
 				p.setVorname(event.getNewValue());	
-				vorname.setEditable(false);
+				
 				tabelleData.refresh();
 				
 
@@ -465,7 +529,7 @@ public class PatientController implements Initializable {
 				
 				Patient p = event.getRowValue();
 				p.setKVnummer(event.getNewValue());	
-				KVnummer.setEditable(false);
+				
 				tabelleData.refresh();
 				
 
@@ -486,7 +550,7 @@ public class PatientController implements Initializable {
 				
 				Patient p = event.getRowValue();
 				p.setGeburtsdatum(event.getNewValue());	
-				Geburtsdatum.setEditable(false);
+				
 				tabelleData.refresh();
 				
 
@@ -495,13 +559,28 @@ public class PatientController implements Initializable {
     		
     	});
     	
+    	id_patient.setEditable(false);
+		nachname.setEditable(false);
+		vorname.setEditable(false);
+		Geburtsdatum.setEditable(false);
+		KVnummer.setEditable(false);
+		anrede.setEditable(false);
+    	
     	this.speichernButton.setVisible(true);
     	this.einfuegenButton.setVisible(false);	
     	
     }
     
     
-    
+    /**
+     *  die Methode einfuegenEvent wird aufgerufen, wenn der check icon geklickt wird
+     *  wird ein SQL_Abfrage für Insert der Daten in der Tabelle Patient in DB erstellt 
+     *  und bei Aufruf der Methode sendQuery von Klasse DBManager gesendet
+     *  
+     * @param event verantwotlich für Anhörung einer Aktion
+     * @author Ahmad, Akram, Nour 
+     *
+     */
     @FXML
     public void speichernEvent(ActionEvent event)
     {
@@ -520,7 +599,10 @@ public class PatientController implements Initializable {
     			
     			
     		} catch (SQLException e) {
-    			DBManager.printSQLException(e);
+    			String err = DBManager.printSQLException(e);
+				Alert alert = new Alert(AlertType.ERROR);
+				alert.setContentText(err);
+			 	Optional<ButtonType> result = alert.showAndWait();
     		}	
     		
 
@@ -530,28 +612,35 @@ public class PatientController implements Initializable {
     		System.out.print("Error");
     	}
     	
+    	
+    	
     	this.speichernButton.setVisible(false);
     	this.einfuegenButton.setVisible(true);
     	
     	
     }
     
+    /**
+     *  in der Methode initialize wird eine SQL_Abfrage für Holen der Patient Daten 
+     *  anhand der Methode getAlleDatenPatientin der Klasse Patient in der Patient Liste gespeichert.
+     *  Auch werde all Daten von Patient Liste werden in der Liste vom Typ ObservableList gespeichert,
+     *  die es Zuhörern ermöglicht, Änderungen zu verfolgen, wenn sie auftreten.
+     * @param url ist nicht benutzt
+     * @param rb ist nicht benutzt
+     * @author Ahmad, Akram, Nour 
+     *
+     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
     	
     
     	
     	String queryString = "select id_patient, Anrede, Nachname, Vorname, KVnummer, TO_CHAR(Geburtsdatum,'DD.MM.YYYY') From patient";
-    	try {
-    		
-			this.p = Patient.getAlleDatenPatient(queryString);
-			System.out.print("test");
+    	
+		this.p = Patient.getAlleDatenPatient(queryString);
+	
 			
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			
-		}	
+		
 	
 		patient.addAll(p);
     	

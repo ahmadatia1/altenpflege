@@ -6543,3 +6543,1247 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.gluonhq:c
 2022-11-21 16:14:52,387 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-11-21 16:14:52,389 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-21 16:14:52,390 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 18:23:25,562 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-22 18:23:26,010 [Worker-7: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2022-11-22 20:40:37,390 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:40:37,403 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 21 resources
+2022-11-22 20:40:37,533 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:40:37,533 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 20:42:29,878 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:42:29,883 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2022-11-22 20:42:29,898 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:42:29,898 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 20:45:58,764 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:45:58,767 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 20:45:58,776 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:45:58,776 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 20:45:59,800 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:45:59,802 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 20:45:59,804 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:45:59,804 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 20:46:10,355 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:46:10,358 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 20:46:10,364 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:46:10,364 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 20:46:41,474 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:46:41,477 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 20:46:41,483 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:46:41,483 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 20:48:55,248 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:48:55,248 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 20:48:55,252 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:48:55,252 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 20:51:41,315 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:51:41,315 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 20:51:41,319 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:51:41,319 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 20:51:48,274 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:51:48,275 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 20:51:48,279 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:51:48,279 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 20:52:20,265 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:52:20,266 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 20:52:20,270 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:52:20,271 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 20:53:39,758 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:53:39,764 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 20:53:39,772 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:53:39,772 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 20:54:47,961 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:54:47,964 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 20:54:47,969 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:54:47,969 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 20:56:26,254 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-22 20:56:26,518 [Worker-6: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2022-11-22 20:58:57,893 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:58:57,896 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 21 resources
+2022-11-22 20:58:57,955 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 20:58:57,955 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:00:00,278 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:00:00,283 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:00:00,293 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:00:00,294 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:00:22,357 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:00:22,361 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:00:22,365 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:00:22,366 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:00:26,062 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:00:26,065 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:00:26,070 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:00:26,070 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:00:40,857 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:00:40,861 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:00:40,866 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:00:40,866 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:00:44,796 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:00:44,800 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:00:44,805 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:00:44,805 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:03:50,157 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:03:50,158 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 21:03:50,161 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:03:50,162 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:04:48,780 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:04:48,783 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:04:48,788 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:04:48,788 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:04:52,000 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:04:52,003 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:04:52,008 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:04:52,008 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:06:36,854 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:06:36,858 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:06:36,864 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:06:36,865 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:06:57,904 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:06:57,907 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:06:57,912 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:06:57,913 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:11:10,410 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:11:10,414 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:11:10,421 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:11:10,421 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:11:47,281 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:11:47,284 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:11:47,289 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:11:47,290 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:12:14,065 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:12:14,068 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:12:14,073 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:12:14,073 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:15:36,444 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:15:36,444 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 21:15:36,448 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:15:36,448 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:16:20,953 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:16:20,953 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 21:16:20,957 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:16:20,958 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:26:32,713 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:26:32,717 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:26:32,723 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:26:32,723 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:31:42,328 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:31:42,331 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:31:42,335 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:31:42,335 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:36:12,070 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:36:12,074 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:36:12,080 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:36:12,080 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:36:20,016 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:36:20,019 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:36:20,024 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:36:20,024 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:41:06,118 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:41:06,122 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:41:06,127 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:41:06,127 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:48:52,080 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:48:52,084 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:48:52,089 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:48:52,090 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:58:26,441 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:58:26,445 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:58:26,450 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:58:26,450 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 21:58:32,075 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:58:32,078 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 21:58:32,083 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 21:58:32,083 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:02:03,536 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:02:03,540 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:02:03,545 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:02:03,545 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:15:02,042 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:15:02,046 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:15:02,051 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:15:02,051 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:15:45,630 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:15:45,633 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:15:45,638 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:15:45,638 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:16:09,956 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:16:09,960 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:16:09,965 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:16:09,966 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:16:33,628 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:16:33,631 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:16:33,635 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:16:33,635 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:17:09,232 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:17:09,235 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:17:09,240 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:17:09,241 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:18:15,808 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:18:15,811 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:18:15,815 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:18:15,815 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:18:48,524 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:18:48,527 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:18:48,531 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:18:48,532 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:19:17,036 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:19:17,040 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:19:17,044 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:19:17,044 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:19:51,611 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:19:51,616 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:19:51,621 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:19:51,621 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:20:19,590 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:20:19,593 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:20:19,598 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:20:19,598 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:20:42,673 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:20:42,676 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:20:42,680 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:20:42,680 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:21:47,241 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:21:47,244 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:21:47,249 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:21:47,249 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:21:51,862 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:21:51,865 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:21:51,870 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:21:51,870 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:21:58,520 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:21:58,523 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:21:58,527 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:21:58,528 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:22:25,351 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:22:25,355 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:22:25,360 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:22:25,360 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:22:27,319 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:22:27,322 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:22:27,327 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:22:27,327 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:22:41,347 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:22:41,350 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:22:41,354 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:22:41,355 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:22:52,179 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:22:52,182 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:22:52,187 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:22:52,187 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:23:23,502 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:23:23,505 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:23:23,509 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:23:23,509 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:24:09,317 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:24:09,320 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:24:09,325 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:24:09,325 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:24:25,909 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:24:25,912 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:24:25,917 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:24:25,917 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:24:55,777 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:24:55,780 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:24:55,785 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:24:55,785 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:25:20,657 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:25:20,660 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:25:20,665 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:25:20,665 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:25:56,964 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:25:56,967 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:25:56,972 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:25:56,972 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:26:21,474 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:26:21,478 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:26:21,484 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:26:21,485 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:26:38,574 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:26:38,578 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:26:38,584 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:26:38,584 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:26:57,754 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:26:57,758 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:26:57,764 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:26:57,764 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:27:26,953 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:27:26,956 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:27:26,960 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:27:26,961 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:28:00,443 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:28:00,447 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:28:00,451 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:28:00,451 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:28:11,843 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:28:11,847 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:28:11,852 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:28:11,853 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:28:42,104 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:28:42,107 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:28:42,112 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:28:42,112 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:28:43,716 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:28:43,719 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:28:43,723 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:28:43,723 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:29:26,488 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:29:26,492 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:29:26,496 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:29:26,496 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:29:31,867 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:29:31,870 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:29:31,874 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:29:31,875 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:29:57,393 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:29:57,396 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:29:57,400 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:29:57,401 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:32:41,788 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:32:41,791 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:32:41,795 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:32:41,796 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:33:17,224 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:33:17,227 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:33:17,232 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:33:17,233 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:35:44,830 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:35:44,833 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:35:44,838 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:35:44,838 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:37:25,344 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:37:25,347 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:37:25,360 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:37:25,361 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:37:47,951 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:37:47,955 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:37:48,015 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:37:48,016 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:38:07,812 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:38:07,815 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:38:07,877 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:38:07,877 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:38:57,439 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:38:57,442 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:38:57,497 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:38:57,498 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:42:55,545 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:42:55,548 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:42:55,552 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:42:55,553 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:42:59,115 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:42:59,118 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:42:59,122 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:42:59,123 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:43:46,370 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:43:46,373 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:43:46,377 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:43:46,377 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:44:15,425 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:44:15,429 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:44:15,434 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:44:15,435 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:44:29,023 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:44:29,026 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:44:29,030 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:44:29,030 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:44:45,895 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:44:45,899 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:44:45,903 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:44:45,904 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:45:18,795 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:45:18,798 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:45:18,802 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:45:18,802 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:45:44,213 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:45:44,215 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:45:44,220 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:45:44,220 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:45:54,247 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:45:54,250 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:45:54,254 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:45:54,254 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:46:08,608 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:46:08,612 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:46:08,616 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:46:08,616 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:46:21,251 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:46:21,254 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:46:21,258 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:46:21,259 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:46:31,871 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:46:31,874 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:46:31,878 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:46:31,878 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:47:00,831 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:47:00,834 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:47:00,839 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:47:00,839 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:47:24,879 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:47:24,882 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:47:24,887 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:47:24,887 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:47:34,428 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:47:34,431 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:47:34,436 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:47:34,436 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:47:37,261 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:47:37,264 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:47:37,268 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:47:37,269 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:47:53,643 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:47:53,647 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:47:53,654 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:47:53,654 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:48:02,342 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:48:02,345 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:48:02,349 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:48:02,350 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:48:05,327 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:48:05,330 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:48:05,335 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:48:05,335 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:48:49,855 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:48:49,858 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:48:49,862 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:48:49,862 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:49:03,722 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:49:03,727 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:49:03,732 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:49:03,733 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:49:15,919 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:49:15,922 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:49:15,927 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:49:15,928 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:49:27,787 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:49:27,791 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:49:27,796 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:49:27,797 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:49:41,298 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:49:41,301 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:49:41,306 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:49:41,307 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:51:16,122 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:51:16,125 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:51:16,129 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:51:16,129 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:51:27,627 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:51:27,630 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:51:27,634 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:51:27,634 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:51:58,705 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:51:58,708 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:51:58,713 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:51:58,713 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:52:06,262 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:52:06,265 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:52:06,269 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:52:06,270 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:52:16,888 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:52:16,891 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:52:16,897 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:52:16,897 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:52:22,206 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:52:22,209 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:52:22,213 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:52:22,213 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:52:51,309 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:52:51,313 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:52:51,319 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:52:51,319 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:52:59,288 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:52:59,291 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:52:59,295 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:52:59,295 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:53:05,796 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:53:05,800 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:53:05,805 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:53:05,806 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:54:04,206 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:54:04,210 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:54:04,216 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:54:04,216 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:54:49,601 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:54:49,604 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:54:49,609 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:54:49,609 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:56:40,920 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:56:40,923 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:56:40,927 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:56:40,927 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:57:15,759 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:57:15,762 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:57:15,766 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:57:15,766 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:57:49,528 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:57:49,531 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:57:49,535 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:57:49,536 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:58:20,967 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:58:20,970 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:58:20,975 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:58:20,976 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 22:59:50,474 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:59:50,477 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 22:59:50,481 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:59:50,481 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:00:13,391 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:00:13,394 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:00:13,398 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:00:13,398 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:00:56,177 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:00:56,180 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:00:56,185 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:00:56,186 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:01:00,460 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:01:00,463 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:01:00,467 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:01:00,467 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:01:02,801 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:01:02,805 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:01:02,811 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:01:02,811 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:02:31,577 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:02:31,580 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:02:31,584 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:02:31,584 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:03:15,390 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:03:15,393 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:03:15,397 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:03:15,397 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:03:52,800 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:03:52,803 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:03:52,807 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:03:52,807 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:05:01,331 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:05:01,335 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:05:01,339 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:05:01,339 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:07:45,124 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:07:45,127 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:07:45,132 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:07:45,132 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:08:25,896 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:08:25,899 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:08:25,903 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:08:25,904 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:08:59,210 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:08:59,214 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:08:59,218 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:08:59,218 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:11:16,871 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:11:16,874 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:11:16,878 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:11:16,878 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:12:06,845 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:12:06,848 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:12:06,853 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:12:06,853 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:12:13,754 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:12:13,757 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:12:13,761 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:12:13,762 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:12:18,431 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:12:18,434 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:12:18,438 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:12:18,438 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:12:22,463 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:12:22,466 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:12:22,471 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:12:22,471 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-22 23:12:32,100 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:12:32,104 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-22 23:12:32,108 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:12:32,109 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:09:58,108 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-23 09:09:58,452 [Worker-6: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2022-11-23 09:11:42,444 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:11:42,447 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 21 resources
+2022-11-23 09:11:42,546 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:11:42,546 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:11:46,296 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:11:46,301 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:11:46,323 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:11:46,324 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:14:20,462 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:14:20,464 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:14:20,468 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:14:20,468 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:16:54,316 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:16:54,320 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:16:54,326 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:16:54,326 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:19:17,063 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:19:17,066 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:19:17,072 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:19:17,072 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:19:33,922 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:19:33,925 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:19:33,930 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:19:33,931 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:20:21,519 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:20:21,522 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:20:21,527 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:20:21,527 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:20:26,803 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:20:26,806 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:20:26,811 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:20:26,811 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:21:28,307 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:21:28,310 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:21:28,314 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:21:28,315 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:21:51,368 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:21:51,371 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:21:51,376 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:21:51,376 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:22:14,537 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:22:14,541 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:22:14,546 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:22:14,546 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:23:51,085 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:23:51,088 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:23:51,092 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:23:51,093 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:24:03,277 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:24:03,280 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:24:03,284 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:24:03,285 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:24:11,771 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:24:11,774 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:24:11,779 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:24:11,780 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:24:21,056 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:24:21,060 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:24:21,064 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:24:21,065 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:24:27,522 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:24:27,526 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:24:27,531 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:24:27,531 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:24:36,670 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:24:36,673 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:24:36,677 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:24:36,678 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:25:03,556 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:25:03,559 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:25:03,565 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:25:03,565 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:25:43,365 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:25:43,368 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:25:43,373 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:25:43,373 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:25:56,303 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:25:56,306 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:25:56,311 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:25:56,311 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:26:00,893 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:26:00,896 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:26:00,901 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:26:00,901 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:26:04,622 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:26:04,625 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:26:04,630 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:26:04,630 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:26:23,922 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:26:23,925 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:26:23,930 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:26:23,930 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:26:47,076 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:26:47,079 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:26:47,084 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:26:47,085 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:27:14,466 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:27:14,469 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:27:14,473 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:27:14,474 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:27:18,409 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:27:18,414 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:27:18,420 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:27:18,421 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:27:22,034 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:27:22,037 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:27:22,041 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:27:22,042 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:28:05,825 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:05,828 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:28:05,833 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:05,834 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:28:10,120 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:10,123 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:28:10,128 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:10,128 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:28:14,111 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:14,117 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:28:14,125 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:14,126 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:28:40,317 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:40,320 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:28:40,325 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:40,325 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:28:47,053 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:47,056 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:28:47,060 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:47,061 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:28:49,948 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:49,951 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:28:49,955 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:49,955 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:28:57,686 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:57,690 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:28:57,694 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:28:57,694 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:29:03,478 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:29:03,481 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:29:03,485 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:29:03,486 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:29:08,308 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:29:08,311 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:29:08,315 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:29:08,316 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:29:22,829 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:29:22,833 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:29:22,837 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:29:22,838 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:30:24,422 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:30:24,425 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:30:24,429 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:30:24,430 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:30:39,398 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:30:39,401 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:30:39,406 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:30:39,406 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:30:44,200 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:30:44,203 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:30:44,207 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:30:44,207 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:30:50,745 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:30:50,748 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:30:50,753 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:30:50,753 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:31:09,641 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:31:09,644 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:31:09,648 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:31:09,648 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:31:14,458 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:31:14,461 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:31:14,465 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:31:14,465 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:31:20,810 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:31:20,814 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:31:20,818 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:31:20,818 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:31:33,075 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:31:33,078 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:31:33,083 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:31:33,083 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:31:47,196 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:31:47,200 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:31:47,206 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:31:47,207 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:31:58,118 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:31:58,121 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:31:58,126 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:31:58,126 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:32:08,903 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:32:08,906 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:32:08,910 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:32:08,911 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:32:11,998 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:32:12,002 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:32:12,006 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:32:12,006 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:32:22,522 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:32:22,525 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:32:22,529 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:32:22,529 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:32:34,318 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:32:34,321 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:32:34,326 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:32:34,326 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:32:51,303 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:32:51,306 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:32:51,311 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:32:51,311 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:32:56,716 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:32:56,720 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:32:56,724 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:32:56,724 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:33:04,729 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:33:04,733 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:33:04,737 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:33:04,738 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:33:09,535 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:33:09,538 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:33:09,542 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:33:09,542 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:33:33,347 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:33:33,350 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:33:33,355 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:33:33,356 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:33:46,534 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:33:46,537 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:33:46,541 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:33:46,542 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:33:52,096 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:33:52,099 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:33:52,104 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:33:52,104 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:34:02,874 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:34:02,877 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:34:02,881 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:34:02,881 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:34:09,200 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:34:09,203 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:34:09,207 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:34:09,208 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:34:14,029 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:34:14,033 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:34:14,037 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:34:14,037 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:34:23,728 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:34:23,732 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:34:23,737 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:34:23,737 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:34:40,252 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:34:40,256 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:34:40,260 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:34:40,261 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:35:40,403 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:35:40,407 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:35:40,413 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:35:40,413 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:35:58,353 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:35:58,356 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:35:58,361 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:35:58,362 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:36:17,456 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:36:17,459 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:36:17,464 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:36:17,464 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:36:33,976 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:36:33,979 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:36:33,983 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:36:33,983 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:36:38,498 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:36:38,501 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:36:38,506 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:36:38,507 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:36:52,395 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:36:52,398 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:36:52,402 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:36:52,403 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:38:59,442 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:38:59,445 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:38:59,450 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:38:59,450 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:39:05,110 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:39:05,113 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:39:05,118 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:39:05,118 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:39:40,649 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:39:40,652 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:39:40,656 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:39:40,657 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:39:52,916 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:39:52,920 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:39:52,924 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:39:52,924 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:40:11,326 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:40:11,330 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:40:11,335 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:40:11,335 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:40:24,308 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:40:24,311 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:40:24,315 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:40:24,316 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:40:38,722 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:40:38,725 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:40:38,729 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:40:38,729 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:40:51,110 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:40:51,114 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:40:51,120 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:40:51,121 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:42:08,722 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:42:08,725 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:42:08,730 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:42:08,731 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:42:57,625 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:42:57,628 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:42:57,632 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:42:57,633 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:43:03,577 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:43:03,580 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:43:03,585 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:43:03,585 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:43:42,290 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:43:42,293 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:43:42,296 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:43:42,297 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:43:53,891 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:43:53,895 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:43:53,899 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:43:53,899 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:44:02,012 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:02,015 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:44:02,019 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:02,020 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:44:09,257 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:09,260 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:44:09,265 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:09,265 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:44:18,055 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:18,058 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:44:18,062 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:18,062 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:44:26,481 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:26,484 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:44:26,489 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:26,490 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:44:44,678 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:44,681 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:44:44,686 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:44,686 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:44:52,584 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:52,587 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:44:52,592 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:52,592 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:44:58,617 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:58,620 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:44:58,624 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:44:58,625 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:45:44,931 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:45:44,934 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:45:44,939 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:45:44,939 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:46:02,215 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:46:02,219 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:46:02,223 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:46:02,223 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:46:30,833 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:46:30,836 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:46:30,840 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:46:30,840 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:46:53,645 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:46:53,650 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:46:53,654 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:46:53,654 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:49:20,824 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:49:20,828 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:49:20,832 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:49:20,833 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:50:41,635 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:50:41,639 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:50:41,645 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:50:41,646 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:50:52,120 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:50:52,124 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:50:52,129 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:50:52,129 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:51:05,068 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:51:05,071 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:51:05,075 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:51:05,076 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:51:16,479 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:51:16,483 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:51:16,489 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:51:16,489 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:51:56,591 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:51:56,594 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:51:56,601 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:51:56,602 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:53:18,846 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:53:18,850 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:53:18,856 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:53:18,857 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:54:26,922 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:54:26,925 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:54:26,929 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:54:26,930 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:54:42,734 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:54:42,737 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:54:42,741 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:54:42,741 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:54:54,857 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:54:54,860 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:54:54,864 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:54:54,864 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:55:13,990 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:55:13,994 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:55:13,998 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:55:13,999 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:56:19,965 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:56:19,969 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:56:19,973 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:56:19,973 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:57:29,619 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:57:29,622 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:57:29,626 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:57:29,626 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 09:57:59,582 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:57:59,585 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 09:57:59,590 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 09:57:59,590 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:02:10,187 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-23 10:02:10,383 [Worker-7: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2022-11-23 10:02:40,603 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:02:40,608 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 21 resources
+2022-11-23 10:02:40,699 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:02:40,699 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:15:29,539 [Worker-578: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:15:29,540 [Worker-578: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 10:15:29,542 [Worker-578: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:15:29,543 [Worker-578: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:15:33,175 [Worker-577: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:15:33,175 [Worker-577: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 10:15:33,177 [Worker-577: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:15:33,177 [Worker-577: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:20:02,951 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-23 10:20:03,074 [Worker-7: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2022-11-23 10:22:12,401 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-23 10:22:12,518 [Worker-7: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2022-11-23 10:22:47,804 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:22:47,811 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 21 resources
+2022-11-23 10:22:47,882 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:22:47,882 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:24:05,337 [Worker-14: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:24:05,342 [Worker-14: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 10:24:05,367 [Worker-14: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:24:05,367 [Worker-14: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:24:12,310 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:24:12,314 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 10:24:12,319 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:24:12,320 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:24:44,234 [Worker-9: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:24:44,235 [Worker-9: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 10:24:44,237 [Worker-9: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:24:44,237 [Worker-9: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:25:35,514 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:25:35,515 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 10:25:35,517 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:25:35,517 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:25:56,189 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:25:56,190 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 10:25:56,191 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:25:56,192 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:34:56,628 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:34:56,632 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 10:34:56,638 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:34:56,638 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:43:58,910 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:43:58,910 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 10:43:58,912 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:43:58,913 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:50:50,399 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:50:50,403 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 10:50:50,409 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:50:50,409 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:51:01,261 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:51:01,266 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 10:51:01,274 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:51:01,274 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:52:50,150 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:52:50,151 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 10:52:50,152 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:52:50,152 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:53:12,886 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:53:12,887 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 10:53:12,889 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:53:12,890 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 10:59:47,272 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:59:47,276 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 10:59:47,344 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 10:59:47,344 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 11:01:04,473 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:01:04,476 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 11:01:04,481 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:01:04,481 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 11:01:42,095 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:01:42,095 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 11:01:42,097 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:01:42,097 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 11:02:10,966 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:02:10,970 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 11:02:11,036 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:02:11,037 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 11:02:23,578 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:02:23,581 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 11:02:23,586 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:02:23,586 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 11:03:13,200 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-23 11:03:13,343 [Worker-7: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2022-11-23 11:03:41,074 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:03:41,079 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 11:03:41,141 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:03:41,142 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 11:09:57,305 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:09:57,315 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 11:09:57,321 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:09:57,321 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 11:10:14,250 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:10:14,255 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 11:10:14,262 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:10:14,262 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 11:16:56,140 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:16:56,141 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 11:16:56,142 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:16:56,143 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 11:20:28,591 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:20:28,592 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 11:20:28,594 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:20:28,595 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 11:47:32,177 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:47:32,178 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 11:47:32,180 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:47:32,180 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 11:48:26,067 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:48:26,067 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 11:48:26,069 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 11:48:26,069 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 12:24:44,644 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 12:24:44,645 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 12:24:44,647 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 12:24:44,647 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 12:35:58,975 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 12:35:58,976 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 12:35:58,978 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 12:35:58,978 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 12:43:18,750 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 12:43:18,751 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 12:43:18,753 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 12:43:18,753 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 13:32:43,737 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 13:32:43,738 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 13:32:43,740 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 13:32:43,740 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 13:34:08,543 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 13:34:08,544 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-23 13:34:08,545 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 13:34:08,545 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 13:49:04,262 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-23 13:49:04,390 [Worker-7: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - null
+2022-11-23 18:37:24,227 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:37:24,233 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:37:24,341 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:37:24,341 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:38:15,442 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:38:15,448 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:38:15,453 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:38:15,453 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:38:32,990 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:38:32,994 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:38:32,999 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:38:32,999 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:39:17,370 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:39:17,373 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:39:17,378 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:39:17,378 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:40:10,275 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:40:10,279 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:40:10,285 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:40:10,285 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:40:50,422 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:40:50,426 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:40:50,431 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:40:50,432 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:41:32,520 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:41:32,524 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:41:32,529 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:41:32,529 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:43:10,527 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:43:10,530 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:43:10,535 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:43:10,535 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:46:56,781 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:46:56,785 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:46:56,789 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:46:56,790 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:47:39,381 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:47:39,384 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:47:39,389 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:47:39,389 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:49:33,178 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:49:33,182 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:49:33,187 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:49:33,187 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:50:12,598 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:50:12,602 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:50:12,607 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:50:12,607 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:51:00,713 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:51:00,717 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:51:00,722 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:51:00,722 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:52:06,315 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:52:06,319 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:52:06,324 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:52:06,324 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:53:40,619 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:53:40,622 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:53:40,627 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:53:40,627 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:54:36,018 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:54:36,021 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:54:36,026 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:54:36,026 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:55:02,096 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:55:02,099 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:55:02,103 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:55:02,103 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:55:35,315 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:55:35,318 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:55:35,323 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:55:35,323 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:55:41,902 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:55:41,906 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:55:41,910 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:55:41,910 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:56:16,573 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:56:16,577 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:56:16,583 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:56:16,583 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:56:42,131 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:56:42,134 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:56:42,139 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:56:42,139 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:57:09,715 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:57:09,718 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:57:09,723 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:57:09,723 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:58:32,792 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:58:32,795 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:58:32,800 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:58:32,800 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:59:25,278 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:59:25,281 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:59:25,286 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:59:25,287 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 18:59:41,587 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:59:41,590 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 18:59:41,594 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 18:59:41,594 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 19:00:21,413 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:00:21,417 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 19:00:21,422 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:00:21,422 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 19:02:16,860 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:02:16,864 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 19:02:16,869 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:02:16,869 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 19:02:53,820 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:02:53,824 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 19:02:53,829 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:02:53,829 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 19:03:08,555 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:03:08,558 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 19:03:08,563 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:03:08,563 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 19:03:41,451 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:03:41,455 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 19:03:41,459 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:03:41,459 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 19:04:24,570 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:04:24,574 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 19:04:24,578 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:04:24,579 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources
+2022-11-23 19:04:41,076 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:04:41,080 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2022-11-23 19:04:41,085 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-23 19:04:41,085 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Kunde\Desktop\s3\DB1\sample\src\test\resources

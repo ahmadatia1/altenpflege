@@ -10,14 +10,18 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import altenpfleger.sample.dbservices.DBManager;
 
+/**
+ *  Klasse Adresse ist Model
+ *  alle Attributen werden gekapselt
+ * 
+ * @author Ahmad, Akram, Nour 
+ *
+ */
 public class Adresse {
 	
 	
 	private SimpleStringProperty  id_adresse, id_patient, strasse, hausnummer, ort, plz;
 
-	
-	
-	
 	public Adresse(String id_adresse, String id_patient, String strasse, String hausnummer, String ort, String plz)
 	{
 		this.id_adresse = new SimpleStringProperty(id_adresse);
@@ -206,8 +210,14 @@ public class Adresse {
 
 
 
-
-	public static ArrayList<Adresse> getAlleDatenAdresse(String querey) throws SQLException
+	/**
+	 *  Klasse Adresse ist Model
+	 *  alle Attributen werden gekapselt
+	 * 
+	 * @param ist für querey SQL_Abfrage
+	 * @return git eine Liste von den erhaltenen Daten 
+	 */
+	public static ArrayList<Adresse> getAlleDatenAdresse(String querey) 
 	{
 		ArrayList<Adresse> data = new ArrayList<Adresse>();
 		

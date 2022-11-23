@@ -30,7 +30,7 @@ public static void connectDB(String username, String password)
 
 }
 
-public static void printSQLException(SQLException ex) {
+public static String printSQLException(SQLException ex) {
 	for (Throwable e : ex) {
 		if (e instanceof SQLException) {
 			System. out.println ("\n---SQLException---\n");
@@ -41,6 +41,7 @@ public static void printSQLException(SQLException ex) {
 			System.err.println ("Error Code: " +sqlex.getErrorCode ());
 			
 			System. out.println ("");
+			return sqlex.getMessage();
 		}
 		
 		if (e instanceof SQLWarning) {
@@ -53,12 +54,14 @@ public static void printSQLException(SQLException ex) {
 			
 			System. out.println("");
 			//warning = warning.getNextWarning();
-	
+			return sqlw.getMessage();
 		}
+		
 	
 	}
 	
 	ex.printStackTrace(System.err);
+	return ex.getMessage();
 }
 
 public static void sendQuery(String querey) throws SQLException

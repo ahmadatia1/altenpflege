@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>54</x>
+      <y>972</y>
+      <w>318</w>
+      <h>246</h>
+    </coordinates>
+    <panel_attributes>src/main/resource/fxml::Altenpfleger.fxml(View)
+--
+anchorPane: AnchorPane
+-children_Anchor: children
+-HBox: HBox
+-children_HBox: children
+-einfuegenButton: Button
+-ImageView: ImageView
+-speichernButton: Button
+-ImageView: ImageView
+-editButton: Button
+-ImageView: ImageView
+-deleteButton: Button
+-ImageView: ImageView
+-tabelleData: TableView&lt;Altenpfleger&gt;
+-id_altenpfleger: TableColumn&lt;Altenpfleger, String&gt;
+-anrede: TableColumn&lt;Altenpfleger, String&gt;
+-nachname: TableColumn&lt;Altenpfleger, String&gt;
+-vorname: TableColumn&lt;Altenpfleger, String&gt;
+-mail: TableColumn&lt;Altenpfleger, String&gt;
+-tel: TableColumn&lt;Altenpfleger, String&gt;
+-geburtsdatum: TableColumn&lt;Altenpfleger, String&gt;
+-altenpfleger = FXCollections.observableArrayList(): ObservableList&lt;Altenpfleger&gt;
+--
+-fx:include:Menu.fxml
+--
+
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>486</x>
+      <y>726</y>
+      <w>258</w>
+      <h>246</h>
+    </coordinates>
+    <panel_attributes>src/main/resource/fxml::Arzt.fxml(View)
+--
+anchorPane: AnchorPane
+-children_Anchor: children
+-HBox: HBox
+-children_HBox: children
+-einfuegenButton: Button
+-ImageView: ImageView
+-speichernButton: Button
+-ImageView: ImageView
+-editButton: Button
+-ImageView: ImageView
+-deleteButton: Button
+-ImageView: ImageView
+-tabelleData: TableView&lt;Arzt&gt;
+-id_arzt: TableColumn&lt;Arzt, String&gt;
+-anrede: TableColumn&lt;Arzt, String&gt;
+-nachname: TableColumn&lt;Arzt, String&gt;
+-vorname: TableColumn&lt;Arzt, String&gt;
+-mail: TableColumn&lt;Arzt, String&gt;
+-tel: TableColumn&lt;Arzt, String&gt;
+-spezialtaet: TableColumn&lt;Arzt, String&gt;
+-vertretung_id_arzt: TableColumn&lt;Arzt, String&gt;
+-arzt = FXCollections.observableArrayList(): ObservableList&lt;Arzt&gt;
+--
+-fx:include:Menu.fxml
+--
+
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>894</x>
+      <y>744</y>
+      <w>348</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.model::Altenpfleger
+--
+-id_altenpfleger, anrede, nachname, vorname, geburtsdatum, mail, tel: SimpleStringProperty
+--
++Altenpfleger(String id_altenpfleger, String anrede,...):
++getId_altenpfleger(): String
++setId_altenpfleger(String id_altenpfleger): void
++getAnrede(): String
++setAnrede(String anrede): void
++getNachname(): String
++setNachname(String nachname): void
++getVorname(): String
++setVorname(String vorname): void
++getGeburtsdatum(): String
++setGeburtsdatum(String geburtsdatum): void
++getMail(): String
++setMail(String mail): void
++getTel(): String
++setTel(String tel): void
++getAlleDatenAltenpfleger(String querey): ArrayList&lt;Altenpfleger&gt;
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1002</x>
+      <y>1260</y>
+      <w>288</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.controller::AdresseController
+--
+-a: ArrayList&lt;Adresse&gt;
+-einfuegenButton: Button
+-speichernButton: Button
+-tabelleData: TableView&lt;Adresse&gt;
+-id_adresse: TableColumn&lt;Adresse, String&gt;
+-id_patient: TableColumn&lt;Adresse, String&gt;
+-strasse: TableColumn&lt;Adresse, String&gt;
+-hausnummer: TableColumn&lt;Adresse, String&gt;
+-ort: TableColumn&lt;Adresse, String&gt;
+-plz: TableColumn&lt;Adresse, String&gt;
+-adresse = FXCollections.observableArrayList(): ObservableList&lt;Adresse&gt;
+--
+-editButton(ActionEvent event): void
+-deleteButton(ActionEvent event): void
+-einfuegenEvent(ActionEvent event): void
++speichernEvent(ActionEvent event): void
++initialize(URL url, ResourceBundle rb): void
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1308</x>
+      <y>312</y>
+      <w>354</w>
+      <h>186</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.model::Patient
+--
+-id_patient, anrede, nachname, vorname, KVnummer, Geburtsdatum: SimpleStringProperty
+--
++Patient(String id_patient, String anrede, ...): 
++getId_patient(): String
++setId_patient(String id_patient): void
++getAnrede(): String
++setAnrede(String anrede): void
++getNachname(): String
++setNachname(String nachname): void
++getVorname(): String
++setVorname(String vorname): void
++getKVnummer(): String
++setKVnummer(String kVnummer): void
++getGeburtsdatum(): String
++setGeburtsdatum(String geburtsdatum): void
++getAlleDatenPatient(String querey): ArrayList&lt;Patient&gt;
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>1236</y>
+      <w>354</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>src/main/resource/fxml::Arzt_has_Patient.fxml(View)
+--
+anchorPane: AnchorPane
+-children_Anchor: children
+-HBox: HBox
+-children_HBox: children
+-einfuegenButton: Button
+-ImageView: ImageView
+-speichernButton: Button
+-ImageView: ImageView
+-editButton: Button
+-ImageView: ImageView
+-deleteButton: Button
+-ImageView: ImageView
+-tabelleData: TableView&lt;Arzt_has_Patient&gt;
+-arzt_id_arzt: TableColumn&lt;Arzt_has_Patient, String&gt;
+-patient_id_patient: TableColumn&lt;Arzt_has_Patient, String&gt;
+-krankheit: TableColumn&lt;Arzt_has_Patient, String&gt;
+-wunschtermin: TableColumn&lt;Arzt_has_Patient, String&gt;
+-arzt_has_patient = FXCollections.observableArrayList(): ObservableList&lt;Arzt_has_Patient&gt;
+--
+-fx:include:Menu.fxml
+--
+
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>414</x>
+      <y>1224</y>
+      <w>264</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>src/main/resource/fxml::Dienst.fxml(View)
+--
+anchorPane: AnchorPane
+-children_Anchor: children
+-HBox: HBox
+-children_HBox: children
+-einfuegenButton: Button
+-ImageView: ImageView
+-speichernButton: Button
+-ImageView: ImageView
+-editButton: Button
+-ImageView: ImageView
+-deleteButton: Button
+-ImageView: ImageView
+-tabelleData: TableView&lt;Dienst&gt;
+-ALTENPFLEGE_ID_ALTENPFLEGE: TableColumn&lt;Dienst, String&gt;
+-PATIENT_ID_PATIENT: TableColumn&lt;Dienst, String&gt;
+-ARBEITSBEGINN: TableColumn&lt;Dienst, String&gt;
+-ARBEITSENDE: TableColumn&lt;Dienst, String&gt;
+-dienst = FXCollections.observableArrayList(): ObservableList&lt;Dienst&gt;
+--
+-fx:include:Menu.fxml
+--
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1254</x>
+      <y>756</y>
+      <w>414</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.model::Arzt_has_Patient
+--
+-arzt_id_arzt, patient_id_patient, krankheit, wunschtermin: SimpleStringProperty
+--
++Arzt_has_Patient(String arzt_id_arzt, String patient_id_patient, String krankheit, String wunschtermin): ctor
++getArzt_id_arzt(): String
++setArzt_id_arzt(String arzt_id_arzt): void
++getPatient_id_patient(): String
++setPatient_id_patient(String patient_id_patient): void
++getKrankheit(): String
++setKrankheit(String krankheit): void
++getWunschtermin(): String
++setWunschtermin(String wunschtermin): void
++getAlleDatenArzt_has_Patient(String querey): ArrayList&lt;Arzt_has_Patient&gt;
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1296</x>
+      <y>516</y>
+      <w>354</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.model::Dienst
+--
+-ALTENPFLEGE_ID_ALTENPFLEGE, ARBEITSBEGINN: SimpleStringProperty
+-ARBEITSENDE, PATIENT_ID_PATIENT: SimpleStringProperty
+--
++Dienst(String ALTENPFLEGE_ID_ALTENPFLEGE, String PATIENT_ID_PATIENT, ...): 
++getALTENPFLEGE_ID_ALTENPFLEGE(): String
++setALTENPFLEGE_ID_ALTENPFLEGE(String aLTENPFLEGE_ID_ALTENPFLEGE): void
++getPATIENT_ID_PATIENT(): String
++setPATIENT_ID_PATIENT(String pATIENT_ID_PATIENT): void
++getARBEITSENDE(): String
++setARBEITSENDE(String aRBEITSENDE): void
++getARBEITSBEGINN(): String
++setARBEITSBEGINN(String aRBEITSBEGINN): void
++getAlleDatenDienst(String querey): ArrayList&lt;Dienst&gt;
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>354</x>
+      <y>222</y>
+      <w>186</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>src/main/resource/fxml::Menu.fxml(View)
+--
+anchorPane: AnchorPane
+-children_Anchor: children
+-HBox: HBox
+-children_HBox: children
+-altenpflegerButton: Button
+-ImageView: ImageView
+-patientButton: Button
+-ImageView: ImageView
+-adresseButton: Button
+-ImageView: ImageView
+-arztButton: Button
+-ImageView: ImageView
+-dienstButton: Button
+-ImageView: ImageView
+-arzt_has_patientButton: Button
+-ImageView: ImageView
+--
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1434</x>
+      <y>1074</y>
+      <w>240</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.dbservices::DBManager
+--
+-url = "jdbc:oracle:thin:@172.22.112.100:1521:fbpool": String
++connectionStatus = false: boolean
++con: Connection
+--
++connectDB(String username, String password): void
++printSQLException(SQLException ex): String
++sendQuery(String querey): void
++closeDB(): void
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>828</x>
+      <y>0</y>
+      <w>150</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample::MainApp
+--
+-stage: Stage
+--
++start(Stage s): void
++setRoot(String fxml, String title): void
+-loadFXML(String fxml): Parent
++main(String[] args): void
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>918</x>
+      <y>180</y>
+      <w>180</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>src/main/resource/fxml::Start.fxml(View)
+--
+-anchorPane: AnchorPane
+-children_Anchor: children
+-ImageView: ImageView
+-benutzername: TextField
+-passwort: PasswordField
+
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>888</x>
+      <y>306</y>
+      <w>414</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.model::Adresse
+--
+-id_adresse, id_patient, strasse, hausnummer, ort, plz: SimpleStringProperty
+--
++Adresse(String id_adresse, String id_patient, String strasse, String hausnummer, String ort, String plz): ctor
++getId_adresse(): String
++setId_adresse(String id_adresse): void
++getId_patient(): String
++setId_patient(String id_patient): void
++getStrasse(): String
++setStrasse(String anrede): void
++getHausnummer(): String
++setHausnummer(String hausnummer): void
++getOrt(): String
++setOrt(String ort): void
++getPlz(): String
++setPlz(String plz): void
++getAlleDatenAdresse(String querey): ArrayList&lt;Adresse&gt;
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>66</x>
+      <y>732</y>
+      <w>414</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>src/main/resource/fxml::Adresse.fxml(View)
+--
+-anchorPane: AnchorPane
+-children_Anchor: children
+-HBox: HBox
+-children_HBox: children
+-einfuegenButton: Button
+-ImageView: ImageView
+-speichernButton: Button
+-ImageView: ImageView
+-editButton: Button
+-ImageView: ImageView
+-deleteButton: Button
+-ImageView: ImageView
+-tabelleData: TableView
+-id_adresse: TableColumn&lt;Adresse, String&gt;
+-id_patient: TableColumn&lt;Adresse, String&gt;
+-strasse: TableColumn&lt;Adresse, String&gt;
+-hausnummer: TableColumn&lt;Adresse, String&gt;
+-ort: TableColumn&lt;Adresse, String&gt;
+-plz: TableColumn&lt;Adresse, String&gt;
+
+--
+-fx:include:Menu.fxml
+--
+
+
+bg=ORANGE
+fg=BLACK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1326</x>
+      <y>1464</y>
+      <w>258</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.controller::ArztController
+--
+-a: ArrayList&lt;Arzt&gt;
+-einfuegenButton: Button
+-speichernButton: Button
+-tabelleData: TableView&lt;Arzt&gt;
+-id_arzt: TableColumn&lt;Arzt, String&gt;
+-anrede: TableColumn&lt;Arzt, String&gt;
+-nachname: TableColumn&lt;Arzt, String&gt;
+-vorname: TableColumn&lt;Arzt, String&gt;
+-mail: TableColumn&lt;Arzt, String&gt;
+-tel: TableColumn&lt;Arzt, String&gt;
+-spezialtaet: TableColumn&lt;Arzt, String&gt;
+-vertretung_id_arzt: TableColumn&lt;Arzt, String&gt;
+-arzt = FXCollections.observableArrayList(): ObservableList&lt;Arzt&gt;
+--
+-editButton(ActionEvent event): void
+-deleteButton(ActionEvent event): void
+-einfuegenEvent(ActionEvent event): void
++speichernEvent(ActionEvent event): void
++initialize(URL url, ResourceBundle rb): void
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1296</x>
+      <y>1260</y>
+      <w>282</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.controller::PatientController
+--
+-p: ArrayList&lt;Patient&gt;
+-einfuegenButton: Button
+-speichernButton: Button
+-tabelleData: TableView&lt;Patient&gt;
+-id_patient: TableColumn&lt;Patient, String&gt;
+-anrede: TableColumn&lt;Patient, String&gt;
+-vorname: TableColumn&lt;Patient, String&gt;
+-KVnummer: TableColumn&lt;Patient, String&gt;
+-Geburtsdatum: TableColumn&lt;Patient, String&gt;
+-nachname: TableColumn&lt;Patient, String&gt;
+-patient = FXCollections.observableArrayList(): ObservableList&lt;Patient&gt;
+--
+-editButton(ActionEvent event): void
+-deleteButton(ActionEvent event): void
+-einfuegenEvent(ActionEvent event): void
++speichernEvent(ActionEvent event): void
++initialize(URL url, ResourceBundle rb): void
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>984</y>
+      <w>282</w>
+      <h>222</h>
+    </coordinates>
+    <panel_attributes>src/main/resource/fxml::Patient.fxml(View)
+--
+anchorPane: AnchorPane
+-children_Anchor: children
+-HBox: HBox
+-children_HBox: children
+-einfuegenButton: Button
+-ImageView: ImageView
+-speichernButton: Button
+-ImageView: ImageView
+-editButton: Button
+-ImageView: ImageView
+-deleteButton: Button
+-ImageView: ImageView
+-tabelleData: TableView&lt;Patient&gt;
+-id_patient: TableColumn&lt;Patient, String&gt;
+-anrede: TableColumn&lt;Patient, String&gt;
+-vorname: TableColumn&lt;Patient, String&gt;
+-KVnummer: TableColumn&lt;Patient, String&gt;
+-Geburtsdatum: TableColumn&lt;Patient, String&gt;
+-nachname: TableColumn&lt;Patient, String&gt;
+-patient = FXCollections.observableArrayList(): ObservableList&lt;Patient&gt;
+--
+-fx:include:Menu.fxml
+--
+
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1002</x>
+      <y>1686</y>
+      <w>354</w>
+      <h>174</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.controller::Arzt_has_PatientController
+--
+-a: ArrayList&lt;Arzt_has_Patient&gt;
+-einfuegenButton: Button
+-speichernButton: Button
+-tabelleData: TableView&lt;Arzt_has_Patient&gt;
+-arzt_id_arzt: TableColumn&lt;Arzt_has_Patient, String&gt;
+-patient_id_patient: TableColumn&lt;Arzt_has_Patient, String&gt;
+-krankheit: TableColumn&lt;Arzt_has_Patient, String&gt;
+-wunschtermin: TableColumn&lt;Arzt_has_Patient, String&gt;
+-arzt_has_patient = FXCollections.observableArrayList(): ObservableList&lt;Arzt_has_Patient&gt;
+--
+-editButton(ActionEvent event): void
+-deleteButton(ActionEvent event): void
+-einfuegenEvent(ActionEvent event): void
++speichernEvent(ActionEvent event): void
++initialize(URL url, ResourceBundle rb): void
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1368</x>
+      <y>1686</y>
+      <w>264</w>
+      <h>174</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.controller::DienstController
+--
+-d: ArrayList&lt;Dienst&gt;
+-einfuegenButton: Button
+-speichernButton: Button
+-tabelleData: TableView&lt;Dienst&gt;
+-ALTENPFLEGE_ID_ALTENPFLEGE: TableColumn&lt;Dienst, String&gt;
+-PATIENT_ID_PATIENT: TableColumn&lt;Dienst, String&gt;
+-ARBEITSBEGINN: TableColumn&lt;Dienst, String&gt;
+-ARBEITSENDE: TableColumn&lt;Dienst, String&gt;
+-dienst = FXCollections.observableArrayList(): ObservableList&lt;Dienst&gt;
+--
+-editButton(ActionEvent event): void
+-deleteButton(ActionEvent event): void
+-einfuegenEvent(ActionEvent event): void
++speichernEvent(ActionEvent event): void
++initialize(URL url, ResourceBundle rb): void
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>648</x>
+      <y>204</y>
+      <w>180</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.controller::StartController
+--
+-benutzername: TextField
+-passwort: PasswordField
+--
+-anmeldenButton(ActionEvent event): void
++initialize(URL url, ResourceBundle rb): void
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>522</x>
+      <y>0</y>
+      <w>186</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.controller::MenuController
+--
+--
+-setAltenpflegerScene(ActionEvent e): void
+-setPatientScene(ActionEvent e): void
+-setAdresseScene(ActionEvent e): void
+-setArztScene(ActionEvent e): void
+-setDienstScene(ActionEvent e): void
+-setArztHasPatientScene(ActionEvent e): void
++initialize(URL url, ResourceBundle rb): void
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1002</x>
+      <y>1464</y>
+      <w>318</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.controller::AltenpflegerController
+--
+-a: ArrayList&lt;Altenpfleger&gt;
+-anchor: AnchorPane
+-einfuegenButton: Button
+-speichernButton: Button
+-tabelleData: TableView&lt;Altenpfleger&gt;
+-id_altenpfleger: TableColumn&lt;Altenpfleger, String&gt;
+-anrede: TableColumn&lt;Altenpfleger, String&gt;
+-nachname: TableColumn&lt;Altenpfleger, String&gt;
+-vorname: TableColumn&lt;Altenpfleger, String&gt;
+-mail: TableColumn&lt;Altenpfleger, String&gt;
+-tel: TableColumn&lt;Altenpfleger, String&gt;
+-geburtsdatum: TableColumn&lt;Altenpfleger, String&gt;
+-altenpfleger = FXCollections.observableArrayList(): ObservableList&lt;Altenpfleger&gt;
+--
+-editButton(ActionEvent event): void
+-deleteButton(ActionEvent event): void
+-einfuegenEvent(ActionEvent event): void
++speichernEvent(ActionEvent event): void
++initialize(URL url, ResourceBundle rb): void
+--
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>990</x>
+      <y>1236</y>
+      <w>648</w>
+      <h>648</h>
+    </coordinates>
+    <panel_attributes>Controllers
+--
+bg=gray
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>882</x>
+      <y>288</y>
+      <w>804</w>
+      <h>678</h>
+    </coordinates>
+    <panel_attributes>Models
+--
+
+bg=gray
+fg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>894</x>
+      <y>510</y>
+      <w>384</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes>altenpfleger.sample.model::Arzt
+--
+-id_arzt, anrede, nachname, vorname, mail, tel, spezialtaet, vertretung_id_arzt: SimpleStringProperty
+--
++Arzt(String id_arzt, String anrede, String nachname,...): ctor
++getVertretung_id_arzt(): String
++setVertretung_id_arzt(String vertretung_id_artz): void
++getId_arzt(): String
++setId_arzt(String id_artz): void
++getAnrede(): String
++setAnrede(String anrede): void
++getNachname(): String
++setNachname(String nachname): void
++getVorname(): String
++setVorname(String vorname): void
++getMail(): String
++setMail(String mail): void
++getTel(): String
++setTel(String tel): void
++getSpezialtaet(): String
++setSpezialtaet(String spezialtaet): void
++getAlleDatenArzt(String querey): ArrayList&lt;Arzt&gt;
+--
+
+bg=ORANGE
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>36</x>
+      <y>708</y>
+      <w>720</w>
+      <h>810</h>
+    </coordinates>
+    <panel_attributes>Views
+--
+
+
+bg=GRAY
+fg=BLUE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>1392</y>
+      <w>252</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=1..*
+&lt; kennt &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;400.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1290</x>
+      <y>960</y>
+      <w>24</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;480.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>714</x>
+      <y>534</y>
+      <w>180</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>280.0;10.0;10.0;10.0;10.0;310.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1554</x>
+      <y>960</y>
+      <w>54</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt; kennt &gt;</panel_attributes>
+    <additional_attributes>10.0;190.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1548</x>
+      <y>1170</y>
+      <w>54</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt; kennt &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>96</y>
+      <w>18</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>456</x>
+      <y>318</y>
+      <w>54</w>
+      <h>414</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt; kennt &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;670.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>702</x>
+      <y>54</y>
+      <w>138</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>822</x>
+      <y>234</y>
+      <w>108</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=1..*
+&lt; kennt &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>402</x>
+      <y>60</y>
+      <w>132</w>
+      <h>174</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=1..*
+&lt; kennt &gt;</panel_attributes>
+    <additional_attributes>10.0;270.0;10.0;10.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>954</x>
+      <y>78</y>
+      <w>18</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>588</x>
+      <y>96</y>
+      <w>54</w>
+      <h>636</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=1..*
+&lt; kennt &gt;</panel_attributes>
+    <additional_attributes>10.0;1040.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>972</x>
+      <y>30</y>
+      <w>786</w>
+      <h>1338</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=*
+m2=1</panel_attributes>
+    <additional_attributes>1110.0;2200.0;1290.0;2200.0;1290.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

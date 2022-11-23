@@ -10,6 +10,13 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import altenpfleger.sample.dbservices.DBManager;
 
+/**
+ *  Klasse Arzt ist Model
+ *  alle Attributen werden gekapselt
+ * 
+ * @author Ahmad, Akram, Nour 
+ *
+ */
 public class Arzt {
 	
 	
@@ -234,8 +241,14 @@ public class Arzt {
 	}
 
 
-
-	public static ArrayList<Arzt> getAlleDatenArzt(String querey) throws SQLException
+	/**
+	 *  Klasse Arzt ist Model
+	 *  alle Attributen werden gekapselt
+	 * 
+	 * @param ist für querey SQL_Abfrage
+	 * @return git eine Liste von den erhaltenen Daten 
+	 */
+	public static ArrayList<Arzt> getAlleDatenArzt(String querey)
 	{
 		ArrayList<Arzt> data = new ArrayList<Arzt>();
 		

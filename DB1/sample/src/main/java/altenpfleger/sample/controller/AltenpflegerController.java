@@ -20,6 +20,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener.Change;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -32,14 +33,22 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableColumn.CellEditEvent;
 import javafx.scene.control.TablePosition;
 import javafx.scene.control.TableView;
+import javafx.scene.control.Tooltip;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
 
 import java.util.*;
 
-
+/**
+ *  Klasse AltenpflegerController kontrolliert der View bzw. Altenpfleger.fxml Datei
+ *  Events werden augeführt, Textfeldern werden bearbeiten und neue Werte gespeichert, etc..
+ *  
+ * @author Ahmad, Akram, Nour 
+ *
+ */
 public class AltenpflegerController implements Initializable {
 	
 
@@ -62,7 +71,14 @@ public class AltenpflegerController implements Initializable {
     @FXML private TableColumn<Altenpfleger, String> geburtsdatum;
    
  
-    
+    /**
+     *  die Methode editButton wird aufgerufen, wenn der Edit icon geklickt wird
+     *  wird EditEvent für die Textfeldern in der Tabelle angehört und bei neuen Wertern sowohl in db als auch in der List Altenpfleger aktualisiert 
+     *  
+     * @param event verantwotlich für Anhörung einer Aktion
+     * @author Ahmad, Akram, Nour 
+     *
+     */
    
     @FXML
     private void editButton(ActionEvent event) throws IOException {
@@ -82,8 +98,8 @@ public class AltenpflegerController implements Initializable {
 				Altenpfleger a = event.getRowValue();
 				Alert alert = new Alert(AlertType.CONFIRMATION);
 		    	alert.setTitle("Update");
-		    	alert.setHeaderText("Anrede ändern und aktualisieren");
-		    	alert.setContentText("Bitte bstätigen?");
+		    	alert.setHeaderText("anrede ändern und aktualisieren");
+		    	alert.setContentText("Bitte bestätigen?");
 
 		    	Optional<ButtonType> result = alert.showAndWait();
 		    	
@@ -96,24 +112,26 @@ public class AltenpflegerController implements Initializable {
 		    					+ " where id_altenpfleger='" + event.getRowValue().getId_altenpfleger()+"'";
 		    			DBManager.sendQuery(querey);
 						a.setAnrede(event.getNewValue());
+						anrede.setEditable(false);
 					} catch (SQLException e) {
 						
-						DBManager.printSQLException(e);
+						String err = DBManager.printSQLException(e);
+						alert = new Alert(AlertType.ERROR);
+						alert.setContentText(err);
+						result = alert.showAndWait();
 						a.setAnrede(event.getOldValue());
+						anrede.setEditable(true);
 					}
 		    		
 					
 					
 					tabelleData.refresh();
-		    	} else {
-		    		
-		    		 alert = new Alert(AlertType.ERROR);
-		    		 alert.setContentText("Bitte geben Sie entweder Herr odr Frau ein!!!");
-			    	 result = alert.showAndWait();
-			    	 tabelleData.refresh();
-			    	 a.setAnrede(event.getOldValue());
-			    	 tabelleData.refresh();
-		    	   
+		    	} 
+		    	else
+		    	{
+		    		anrede.setEditable(true);
+		    		a.setAnrede(event.getOldValue());
+		    		tabelleData.refresh();
 		    	}
 				
 				
@@ -151,21 +169,29 @@ public class AltenpflegerController implements Initializable {
 		    					+ " where id_altenpfleger='" + event.getRowValue().getId_altenpfleger()+"'";
 		    			DBManager.sendQuery(querey);
 						a.setNachname(event.getNewValue());
+						nachname.setEditable(false);
 					} 
 		    		catch (SQLException e) 
 		    		{
-						DBManager.printSQLException(e);
+						String err = DBManager.printSQLException(e);
+						alert = new Alert(AlertType.ERROR);
+						alert.setContentText(err);
+						result = alert.showAndWait();
+						a.setNachname(event.getOldValue());
+						nachname.setEditable(true);
 					}
 		    		
 					tabelleData.refresh();
 					
-		    	} 
-		    	else 
-		    	{
-		    	   a.setNachname(event.getOldValue());
-		    	   tabelleData.refresh();
-		    	   
 		    	}
+		    	else
+		    	{
+		    		a.setNachname(event.getOldValue());
+		    		nachname.setEditable(true);
+		    		tabelleData.refresh();
+		    		
+		    	}
+		    	
 				
 				
 				
@@ -199,21 +225,30 @@ public class AltenpflegerController implements Initializable {
 		    					+ " Set vorname='" + event.getNewValue() + "'" 
 		    					+ " where id_altenpfleger='" + event.getRowValue().getId_altenpfleger()+"'";
 		    			DBManager.sendQuery(querey);
+		    			a.setVorname(event.getNewValue());
+		    			vorname.setEditable(false);
 					} catch (SQLException e) 
 		    		{
-						DBManager.printSQLException(e);
+						String err = DBManager.printSQLException(e);
+						alert = new Alert(AlertType.ERROR);
+						alert.setContentText(err);
+						result = alert.showAndWait();
+						a.setVorname(event.getOldValue());
+						vorname.setEditable(true);
+
 					}
 		    		
-					a.setVorname(event.getNewValue());
+					
 					
 					tabelleData.refresh();
 		    	} 
-		    	else 
+		    	else
 		    	{
-		    	   a.setVorname(event.getOldValue());
-		    	   tabelleData.refresh();
-		    	   
+		    		a.setVorname(event.getOldValue());
+		    		vorname.setEditable(true);
+		    		tabelleData.refresh();
 		    	}
+		    	
 				
 				
 				
@@ -247,18 +282,27 @@ public class AltenpflegerController implements Initializable {
 		    					+ " Set geburtsdatum='" + event.getNewValue() + "'" 
 		    					+ " where id_altenpfleger='" + event.getRowValue().getId_altenpfleger() +"'";
 		    			DBManager.sendQuery(querey);
+		    			a.setGeburtsdatum(event.getNewValue());
+		    			geburtsdatum.setEditable(false);
 					} catch (SQLException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+						String err = DBManager.printSQLException(e);
+						alert = new Alert(AlertType.ERROR);
+						alert.setContentText(err);
+						result = alert.showAndWait();
+						a.setGeburtsdatum(event.getOldValue());
+						geburtsdatum.setEditable(true);
+
 					}
 		    		
-					a.setMail(event.getNewValue() );
+				
 					
 					tabelleData.refresh();
-		    	} else {
-		    	   a.setMail(event.getOldValue());
-		    	   tabelleData.refresh();
-		    	   
+		    	}
+		    	else
+		    	{
+		    		geburtsdatum.setEditable(true);
+		    		a.setGeburtsdatum(event.getOldValue());
+		    		tabelleData.refresh();
 		    	}
 				
 				
@@ -293,19 +337,29 @@ public class AltenpflegerController implements Initializable {
 		    					+ " Set tel='" + event.getNewValue() + "'" 
 		    					+ " where id_arzt='" + event.getRowValue().getId_altenpfleger()+"'";
 		    			DBManager.sendQuery(querey);
+		    			a.setTel(event.getNewValue());
+		    			tel.setEditable(false);
 					} 
 		    		catch (SQLException e) 
 		    		{
-						DBManager.printSQLException(e);
+						String err = DBManager.printSQLException(e);
+						alert = new Alert(AlertType.ERROR);
+						alert.setContentText(err);
+						result = alert.showAndWait();
+						a.setTel(event.getOldValue());
+						tel.setEditable(true);
+
 					}
 		    		
-					a.setMail(event.getNewValue() );
+			
 					
 					tabelleData.refresh();
-		    	} else {
-		    	   a.setMail(event.getOldValue());
-		    	   tabelleData.refresh();
-		    	   
+		    	}
+		    	else
+		    	{
+		    		tel.setEditable(true);
+		    		a.setTel(event.getOldValue());
+		    		tabelleData.refresh();
 		    	}
 				
 				
@@ -340,18 +394,27 @@ public class AltenpflegerController implements Initializable {
 		    					+ " Set mail='" + event.getNewValue() + "'" 
 		    					+ " where id_altenpfleger='" + event.getRowValue().getId_altenpfleger() +"'";
 		    			DBManager.sendQuery(querey);
+		    			a.setMail(event.getNewValue());
+		    			mail.setEditable(false);
 					} catch (SQLException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+						String err = DBManager.printSQLException(e);
+						alert = new Alert(AlertType.ERROR);
+						alert.setContentText(err);
+						result = alert.showAndWait();
+						a.setMail(event.getOldValue());
+						mail.setEditable(true);
+
 					}
 		    		
-					a.setMail(event.getNewValue() );
+					
 					
 					tabelleData.refresh();
-		    	} else {
-		    	   a.setMail(event.getOldValue());
-		    	   tabelleData.refresh();
-		    	   
+		    	}
+		    	else
+		    	{
+		    		mail.setEditable(true);
+		    		a.setMail(event.getOldValue());
+		    		tabelleData.refresh();
 		    	}
 				
 				
@@ -363,12 +426,17 @@ public class AltenpflegerController implements Initializable {
     	
     	
     	
-    	
-    	
    	
     }
     
-    
+    /**
+     *  die Methode deleteButton wird aufgerufen, wenn der delete icon geklickt wird
+     *  wird DeleteEvent angehört, um ein Altenpfleger in db und auch in der Liste zulöschen
+     *  
+     * @param event verantwotlich für Anhörung einer Aktion
+     * @author Ahmad, Akram, Nour 
+     *
+     */
     @FXML
     private void deleteButton(ActionEvent event) throws IOException
     {
@@ -376,12 +444,10 @@ public class AltenpflegerController implements Initializable {
     	
     	Altenpfleger a = tabelleData.getSelectionModel().getSelectedItem();
     	
-    	if(a!=null)
-    	{
+    	
 			Alert alert = new Alert(AlertType.CONFIRMATION);
-	    	alert.setTitle("Confirmation Dialog");
-	    	alert.setHeaderText("Look, a Confirmation Dialog");
-	    	alert.setContentText("Are you ok with this?");
+	    	alert.setTitle("Altenpfleger löschen");
+	    	alert.setContentText("Wollen Sie es sicher löschen?");
 
 	    	Optional<ButtonType> result = alert.showAndWait();
 	    	if (result.get() == ButtonType.OK){
@@ -392,22 +458,18 @@ public class AltenpflegerController implements Initializable {
 				} 
 	    		catch (SQLException e) 
 	    		{
-					DBManager.printSQLException(e);
+	    			String err = DBManager.printSQLException(e);
+					alert = new Alert(AlertType.ERROR);
+					alert.setContentText(err);
+					result = alert.showAndWait();
 				}
 	    		
 	    		boolean status = tabelleData.getItems().remove(a);
 	    		System.out.print(status);
 	    	    
-	    	} 
-	    	else 
-	    	{
-	    		
-	    		System.out.print("kein Datensatz ausgewählt !!!");
-	    	    
-	    	}
 	    	
 			
-    	}
+	    	}
     	
     	
     	
@@ -415,7 +477,15 @@ public class AltenpflegerController implements Initializable {
     
     
     
-  
+    /**
+     *  die Methode einfuegenEvent wird aufgerufen, wenn der plus icon geklickt wird
+     *  wird einfuegenEvent für die Textfeldern in der Tabelle angehört. 
+     *  zuerst wird default werte in der Textfeldern eingesetzt und nach Berarbeitung werden die Werte in der Liste Altenpfleger und in der Tabelle gespeichert
+     *  
+     * @param event verantwotlich für Anhörung einer Aktion
+     * @author Ahmad, Akram, Nour 
+     *
+     */
     @FXML
     private void einfuegenEvent(ActionEvent event) throws IOException
     {
@@ -456,10 +526,10 @@ public class AltenpflegerController implements Initializable {
 				
 				Altenpfleger a = event.getRowValue();
 				a.setAnrede(event.getNewValue());	
-				//anrede.setEditable(false);
+				
 				tabelleData.refresh();
 				
-
+				
 			}
 			
     		
@@ -573,13 +643,20 @@ public class AltenpflegerController implements Initializable {
     	});
     	
     	
-    	
     	this.speichernButton.setVisible(true);
     	this.einfuegenButton.setVisible(false);	
     	
     }
     
-    
+    /**
+     *  die Methode einfuegenEvent wird aufgerufen, wenn der check icon geklickt wird
+     *  wird ein SQL_Abfrage für Insert der Daten in der Tabelle Altenpfleger in DB erstellt 
+     *  und bei Aufruf der Methode sendQuery von Klasse DBManager gesendet
+     *  
+     * @param event verantwotlich für Anhörung einer Aktion
+     * @author Ahmad, Akram, Nour 
+     *
+     */
     
     @FXML
     public void speichernEvent(ActionEvent event)
@@ -588,48 +665,61 @@ public class AltenpflegerController implements Initializable {
     	Altenpfleger a = altenpfleger.get(altenpfleger.size()-1);
     	
     	
-    	if(!a.getId_altenpfleger().isEmpty())
-    	{
     	
-    		String queryString = "INSERT INTO Altenpfleger (id_altenpfleger, anrede, nachname, vorname, TO_CHAR(geburtsdatum,'DD.MM.YYYY'), mail, tel)"
-    		+ " VALUES ("+ a.getId_altenpfleger()+ ",'" + a.getAnrede() + "','" + a.getNachname() + "','" + a.getVorname() + "','" + a.getGeburtsdatum()  + "','" + a.getMail() + "'," + a.getTel() + ")";
-    		System.out.print(queryString);
-        	try {
-        		
-        		DBManager.sendQuery(queryString);
-    			
-    			
-    		} catch (SQLException e) {
-    			DBManager.printSQLException(e);
-    		}	
+		String queryString = "INSERT INTO altenpfleger (id_altenpfleger, anrede, nachname, vorname, TO_CHAR(geburtsdatum,'DD.MM.YYYY'), mail, tel)"
+		+ " VALUES ("+ a.getId_altenpfleger()+ ",'" + a.getAnrede() + "','" + a.getNachname() + "','" + a.getVorname() + "','" + a.getGeburtsdatum()  + "','" + a.getMail() + "'," + a.getTel() + ")";
+		System.out.print(queryString);
+    	try {
+    		
+    		DBManager.sendQuery(queryString);
+			
+			
+		} catch (SQLException e) {
+			 Alert alert = new Alert(AlertType.ERROR);
+    		 alert.setContentText(DBManager.printSQLException(e));
+    		 Optional<ButtonType> result = alert.showAndWait();
+    		 altenpfleger.remove(a);
+    		 
+	    	 tabelleData.refresh();
+	    	 
+		}	
     		
 
-    	}
-    	else	
-    	{
-    		System.out.print("Error");
-    	}
-    	
+    	id_altenpfleger.setEditable(false);
+    	anrede.setEditable(false);
+    	nachname.setEditable(false);
+    	vorname.setEditable(false);
+    	mail.setEditable(false);
+    	tel.setEditable(false);
+		geburtsdatum.setEditable(false);
+		
     	this.speichernButton.setVisible(false);
     	this.einfuegenButton.setVisible(true);
     	
     	
     }
     
+    /**
+     *  in der Methode initialize wird eine SQL_Abfrage für Holen der Adresse Daten 
+     *  anhand der Methode getAlleDatenAltenpflegerin der Klasse Altenpfleger in der Altenpfleger Liste gespeichert.
+     *  Auch werde all Daten von Altenpfleger Liste werden in der Liste vom Typ ObservableList gespeichert,
+     *  die es Zuhörern ermöglicht, Änderungen zu verfolgen, wenn sie auftreten.
+     * @param url ist nicht benutzt
+     * @param rb ist nicht benutzt
+     * @author Ahmad, Akram, Nour 
+     *
+     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
     	
     	
     	
-    	String queryString = "select id_altenpfleger, anrede, nachname, vorname, TO_CHAR(geburtsdatum,'DD.MM.YYYY'), mail, tel From Altenpfleger";
-    	try {
-			a = Altenpfleger.getAlleDatenAltenpfleger(queryString);
+    	String queryString = "select id_altenpfleger, anrede, nachname, vorname, TO_CHAR(geburtsdatum,'DD.MM.YYYY'), mail, tel From altenpfleger";
+    	
+		a = Altenpfleger.getAlleDatenAltenpfleger(queryString);
 			
 			
-		} catch (SQLException e) {
-			
-			DBManager.printSQLException(e);
-		}	
+		
 		
     	altenpfleger.addAll(a);
     	

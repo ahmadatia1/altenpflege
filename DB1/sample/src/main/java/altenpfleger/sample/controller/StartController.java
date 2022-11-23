@@ -26,7 +26,12 @@ import javafx.scene.control.Alert.AlertType;
 
 import java.util.*;
 
-
+/**
+ *  Klasse StartController kontrolliert der View bzw. Start.fxml Datei
+ *  
+ * @author Ahmad, Akram, Nour 
+ *
+ */
 public class StartController implements Initializable {
 	
     
@@ -39,7 +44,11 @@ public class StartController implements Initializable {
     
     
     
-    
+    /**
+     *  die Methode anmeldenButton prüft der Anmeldedaten und setzen der View Altenpfleger ein
+     * @param event verantwotlich für Anhörung einer Aktion 
+     *
+     */
     @FXML
     private void anmeldenButton(ActionEvent event) throws IOException, SQLException {
     	

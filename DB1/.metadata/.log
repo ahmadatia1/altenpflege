@@ -9064,3 +9064,2632 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2022-11-22 18:23:18.261 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-11-22 18:23:22.882
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-22 18:23:22.882
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-22 18:23:22.882
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-11-22 18:23:23.237
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-22 18:23:25.573
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kunde'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-22 18:23:26.011
+!MESSAGE 
+!SESSION 2022-11-22 20:56:18.781 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-11-22 20:56:22.980
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-22 20:56:22.980
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-22 20:56:22.980
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-11-22 20:56:23.342
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-22 20:56:26.269
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kunde'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-22 20:56:26.519
+!MESSAGE 
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-11-22 21:04:22.770
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package altenpfleger.sample.controller;
+/*
+Put header here
+
+
+ */
+
+import java.io.IOException;
+import java.net.URL;
+import java.sql.SQLException;
+
+import altenpfleger.sample.MainApp;
+import altenpfleger.sample.dbservices.DBManager;
+import altenpfleger.sample.model.Altenpfleger;
+import altenpfleger.sample.model.Dienst;
+import altenpfleger.sample.model.Patient;
+
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
+import javafx.collections.ListChangeListener.Change;
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
+import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.ButtonType;
+import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableColumn.CellEditEvent;
+import javafx.scene.control.TablePosition;
+import javafx.scene.control.TableView;
+import javafx.scene.control.Tooltip;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.control.cell.TextFieldTableCell;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.text.Text;
+
+import java.util.*;
+
+
+public class MenuController implements Initializable {
+	
+	@FXML Button altenpflegerButton;
+	
+	@FXML 
+	private void setAltenpflegerScene(ActionEvent e) throws IOException
+	{
+		MainApp.setRoot("Altenpfleger", "Altenpfleger");
+	}
+	@FXML 
+	private void setPatientScene(ActionEvent e) throws IOException
+	{
+		MainApp.setRoot("Patient", "Patient");
+	}
+	@FXML 
+	private void setAdresseScene(ActionEvent e) throws IOException
+	{
+		MainApp.setRoot("Adresse", "Adresse");
+	}
+	@FXML 
+	private void setArztScene(ActionEvent e)throws IOException
+	{
+		MainApp.setRoot("Arzt", "Arzt");
+	}
+	@FXML 
+	private void setDienstScene(ActionEvent e) throws IOException
+	{
+		MainApp.setRoot("Dienst", "Dienst");
+	}
+	@FXML 
+	private void setArztHasPatientScene()
+	
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+    	altenpflegerButton.setTooltip(new Tooltip("Altenpfleger"));
+    }    
+    
+ 
+   
+   
+    
+    
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2022-11-22 21:04:22.771
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-11-22 21:04:22.772
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-11-22 21:04:23.311
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package altenpfleger.sample.controller;
+/*
+Put header here
+
+
+ */
+
+import java.io.IOException;
+import java.net.URL;
+import java.sql.SQLException;
+
+import altenpfleger.sample.MainApp;
+import altenpfleger.sample.dbservices.DBManager;
+import altenpfleger.sample.model.Altenpfleger;
+import altenpfleger.sample.model.Dienst;
+import altenpfleger.sample.model.Patient;
+
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
+import javafx.collections.ListChangeListener.Change;
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
+import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.ButtonType;
+import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableColumn.CellEditEvent;
+import javafx.scene.control.TablePosition;
+import javafx.scene.control.TableView;
+import javafx.scene.control.Tooltip;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.control.cell.TextFieldTableCell;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.text.Text;
+
+import java.util.*;
+
+
+public class MenuController implements Initializable {
+	
+	@FXML Button altenpflegerButton;
+	
+	@FXML 
+	private void setAltenpflegerScene(ActionEvent e) throws IOException
+	{
+		MainApp.setRoot("Altenpfleger", "Altenpfleger");
+	}
+	@FXML 
+	private void setPatientScene(ActionEvent e) throws IOException
+	{
+		MainApp.setRoot("Patient", "Patient");
+	}
+	@FXML 
+	private void setAdresseScene(ActionEvent e) throws IOException
+	{
+		MainApp.setRoot("Adresse", "Adresse");
+	}
+	@FXML 
+	private void setArztScene(ActionEvent e)throws IOException
+	{
+		MainApp.setRoot("Arzt", "Arzt");
+	}
+	@FXML 
+	private void setDienstScene(ActionEvent e) throws IOException
+	{
+		MainApp.setRoot("Dienst", "Dienst");
+	}
+	@FXML 
+	private void setArztHasPatientScene()
+	
+	
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+    	altenpflegerButton.setTooltip(new Tooltip("Altenpfleger"));
+    }    
+    
+ 
+   
+   
+    
+    
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2022-11-22 21:04:23.312
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-11-22 21:04:23.312
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3324)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:540)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SESSION 2022-11-23 09:09:50.077 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-11-23 09:09:54.593
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-23 09:09:54.593
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-23 09:09:54.593
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-11-23 09:09:54.935
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-23 09:09:58.119
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kunde'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-23 09:09:58.453
+!MESSAGE 
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 09:58:18.800
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 09:58:19.764
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2022-11-23 09:58:36.341
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2022-11-23 09:58:36.341
+!MESSAGE Error in file:/C:/Users/Kunde/.p2/org.eclipse.equinox.p2.repository/cache/835586443 at line 19913, column 26: Duplicate singleton element in element "repository": <references size="2">
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 09:58:40.011
+!MESSAGE Using unsafe http transport to retrieve http://marketplace.yatta.de/oomph-redirect/composite/autoupdate/client/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 09:58:40.404
+!MESSAGE Using unsafe http transport to retrieve http://marketplace.yatta.de/oomph-redirect/drops/release/1.18.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 09:59:08.920
+!MESSAGE Using unsafe http transport to retrieve http://marketplace.yatta.de/oomph-redirect/composite/autoupdate/client/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 09:59:09.330
+!MESSAGE Using unsafe http transport to retrieve http://marketplace.yatta.de/oomph-redirect/drops/release/1.18.0/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 09:59:46.581
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 09:59:47.495
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2022-11-23 09:59:57.122
+!MESSAGE Unexpected exception: Cannot complete request to https://marketplace.eclipse.orginstall/error/report: status code: 400, reason phrase: Bad Request
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete request to https://marketplace.eclipse.orginstall/error/report: status code: 400, reason phrase: Bad Request
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:831)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.reportInstallError(CachingMarketplaceService.java:421)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(MarketplaceDiscoveryStrategy.java:958)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(MarketplaceCatalog.java:621)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard$3.run(MarketplaceWizard.java:854)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.hc.client5.http.HttpResponseException: status code: 400, reason phrase: Bad Request
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponseStatus(RequestTemplate.java:97)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponse(RequestTemplate.java:64)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:46)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:38)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:822)
+	... 5 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2022-11-23 09:59:57.123
+!MESSAGE Cannot complete request to https://marketplace.eclipse.orginstall/error/report: status code: 400, reason phrase: Bad Request
+!STACK 0
+org.apache.hc.client5.http.HttpResponseException: status code: 400, reason phrase: Bad Request
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponseStatus(RequestTemplate.java:97)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponse(RequestTemplate.java:64)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:46)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:38)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:822)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.reportInstallError(CachingMarketplaceService.java:421)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(MarketplaceDiscoveryStrategy.java:958)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(MarketplaceCatalog.java:621)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard$3.run(MarketplaceWizard.java:854)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2022-11-23 09:59:57.203
+!MESSAGE Problems occurred while performing provisioning operation: operation plan must be resolved
+!STACK 0
+java.lang.IllegalStateException: operation plan must be resolved
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.toCurrentJREOperation(ProvUI.java:338)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.toCompabilityWithCurrentJREProvisioningPlan(ProvUI.java:325)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.lambda$5(MarketplaceWizard.java:876)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:00:28.838
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:00:31.322
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:00:32.649
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-11-23 10:00:36.633
+!MESSAGE No repository found at http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:00:43.786
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:00:46.363
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:00:47.586
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-11-23 10:00:54.665
+!MESSAGE No repository found at http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:00:58.832
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:01:00.203
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:01:13.153
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:01:15.885
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:01:17.532
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-11-23 10:01:21.164
+!MESSAGE No repository found at http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:01:24.637
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:01:26.969
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:01:28.107
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-11-23 10:01:32.913
+!MESSAGE No repository found at http://download.eclipse.org/umlgen/updates/releases/1.0.0/mars.
+!SESSION 2022-11-23 10:01:58.397 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/Kunde/Desktop/s3/DB1/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-11-23 10:02:04.539
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-23 10:02:04.539
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-23 10:02:04.539
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-11-23 10:02:05.035
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-23 10:02:10.209
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kunde'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-23 10:02:10.384
+!MESSAGE 
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-23 10:02:16.530
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Font.<init>(Font.java:80)
+	at com.yattasolutions.obf.no.b.createDialogArea(SourceFile:71)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:767)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.yattasolutions.obf.np.a$1.run(SourceFile:90)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-23 10:02:16.532
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Font.<init>(Font.java:111)
+	at org.eclipse.jface.resource.ArrayFontDescriptor.createFont(ArrayFontDescriptor.java:78)
+	at com.yattasolutions.obf.no.b.createDialogArea(SourceFile:68)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:767)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.yattasolutions.obf.np.a$1.run(SourceFile:90)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:172)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.yattasolutions.codegen 2 0 2022-11-23 10:03:14.969
+!MESSAGE Compared generated code with originally reverse engineered code successfully.
+!SUBENTRY 1 unknown 2 0 2022-11-23 10:03:14.969
+!MESSAGE OK
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in DBManager.java @94.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @473.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @1069.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in DBManager.java @1576.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @1540.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in DBManager.java @628.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @1723.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @1906.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @2059.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @1153.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @1350.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @1266.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @1462.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @1638.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @1836.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @1989.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:14.969
+!MESSAGE No element found for Declaration in Adresse.java @2362.
+
+!ENTRY org.eclipse.emf.transaction 4 45 2022-11-23 10:03:17.033
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.emf.common.notify.Notification.isTouch()" because "notification" is null
+	at org.eclipse.emf.transaction.NotificationFilter$2.matches(NotificationFilter.java:65)
+	at org.eclipse.emf.transaction.impl.FilterManager.selectUnbatched(FilterManager.java:139)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$2.run(TransactionalEditingDomainImpl.java:817)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:323)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.broadcastUnbatched(TransactionalEditingDomainImpl.java:813)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.appendNotification(TransactionChangeRecorder.java:315)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.processObjectNotification(TransactionChangeRecorder.java:280)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.notifyChanged(TransactionChangeRecorder.java:236)
+	at com.yattasolutions.obf.nh.l$a.notifyChanged(SourceFile:129)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at com.yattasolutions.obf.ig.c.b(SourceFile:82)
+	at com.yattasolutions.obf.ig.c.a(SourceFile:73)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:165)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:129)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:93)
+	at com.yattasolutions.obf.ig.a$1.H(SourceFile:86)
+	at com.yattasolutions.obf.ig.a$a.run(SourceFile:201)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2022-11-23 10:03:17.034
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.emf.common.notify.Notification.isTouch()" because "notification" is null
+	at org.eclipse.emf.transaction.NotificationFilter$2.matches(NotificationFilter.java:65)
+	at org.eclipse.emf.transaction.NotificationFilter$12.matches(NotificationFilter.java:268)
+	at org.eclipse.emf.transaction.impl.FilterManager.selectUnbatched(FilterManager.java:139)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$2.run(TransactionalEditingDomainImpl.java:817)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:323)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.broadcastUnbatched(TransactionalEditingDomainImpl.java:813)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.appendNotification(TransactionChangeRecorder.java:315)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.processObjectNotification(TransactionChangeRecorder.java:280)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.notifyChanged(TransactionChangeRecorder.java:236)
+	at com.yattasolutions.obf.nh.l$a.notifyChanged(SourceFile:129)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at com.yattasolutions.obf.ig.c.b(SourceFile:82)
+	at com.yattasolutions.obf.ig.c.a(SourceFile:73)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:165)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:129)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:93)
+	at com.yattasolutions.obf.ig.a$1.H(SourceFile:86)
+	at com.yattasolutions.obf.ig.a$a.run(SourceFile:201)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2022-11-23 10:03:17.035
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.emf.common.notify.Notification.isTouch()" because "notification" is null
+	at org.eclipse.emf.transaction.NotificationFilter$2.matches(NotificationFilter.java:65)
+	at org.eclipse.emf.transaction.impl.FilterManager.selectUnbatched(FilterManager.java:139)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$2.run(TransactionalEditingDomainImpl.java:817)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:323)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.broadcastUnbatched(TransactionalEditingDomainImpl.java:813)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.appendNotification(TransactionChangeRecorder.java:315)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.processObjectNotification(TransactionChangeRecorder.java:280)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.notifyChanged(TransactionChangeRecorder.java:236)
+	at com.yattasolutions.obf.nh.l$a.notifyChanged(SourceFile:129)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at com.yattasolutions.obf.ig.c.b(SourceFile:82)
+	at com.yattasolutions.obf.ig.c.a(SourceFile:73)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:165)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:129)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:93)
+	at com.yattasolutions.obf.ig.a$1.H(SourceFile:86)
+	at com.yattasolutions.obf.ig.a$a.run(SourceFile:201)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2022-11-23 10:03:17.036
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.emf.common.notify.Notification.isTouch()" because "notification" is null
+	at org.eclipse.emf.transaction.NotificationFilter$2.matches(NotificationFilter.java:65)
+	at org.eclipse.emf.transaction.impl.FilterManager.selectUnbatched(FilterManager.java:139)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$2.run(TransactionalEditingDomainImpl.java:817)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:323)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.broadcastUnbatched(TransactionalEditingDomainImpl.java:813)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.appendNotification(TransactionChangeRecorder.java:315)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.processObjectNotification(TransactionChangeRecorder.java:280)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.notifyChanged(TransactionChangeRecorder.java:236)
+	at com.yattasolutions.obf.nh.l$a.notifyChanged(SourceFile:129)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at com.yattasolutions.obf.ig.c.b(SourceFile:82)
+	at com.yattasolutions.obf.ig.c.a(SourceFile:73)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:165)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:129)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:93)
+	at com.yattasolutions.obf.ig.a$1.H(SourceFile:86)
+	at com.yattasolutions.obf.ig.a$a.run(SourceFile:201)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2022-11-23 10:03:17.036
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.emf.common.notify.Notification.isTouch()" because "notification" is null
+	at org.eclipse.emf.transaction.NotificationFilter$2.matches(NotificationFilter.java:65)
+	at org.eclipse.emf.transaction.NotificationFilter$12.matches(NotificationFilter.java:268)
+	at org.eclipse.emf.transaction.NotificationFilter$12.matches(NotificationFilter.java:268)
+	at org.eclipse.emf.transaction.impl.FilterManager.selectUnbatched(FilterManager.java:139)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$2.run(TransactionalEditingDomainImpl.java:817)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:323)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.broadcastUnbatched(TransactionalEditingDomainImpl.java:813)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.appendNotification(TransactionChangeRecorder.java:315)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.processObjectNotification(TransactionChangeRecorder.java:280)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.notifyChanged(TransactionChangeRecorder.java:236)
+	at com.yattasolutions.obf.nh.l$a.notifyChanged(SourceFile:129)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at com.yattasolutions.obf.ig.c.b(SourceFile:82)
+	at com.yattasolutions.obf.ig.c.a(SourceFile:73)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:165)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:129)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:93)
+	at com.yattasolutions.obf.ig.a$1.H(SourceFile:86)
+	at com.yattasolutions.obf.ig.a$a.run(SourceFile:201)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2022-11-23 10:03:17.037
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.emf.common.notify.Notification.isTouch()" because "notification" is null
+	at org.eclipse.emf.transaction.NotificationFilter$2.matches(NotificationFilter.java:65)
+	at org.eclipse.emf.transaction.NotificationFilter$12.matches(NotificationFilter.java:268)
+	at org.eclipse.emf.transaction.impl.FilterManager.selectUnbatched(FilterManager.java:139)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$2.run(TransactionalEditingDomainImpl.java:817)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:323)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.broadcastUnbatched(TransactionalEditingDomainImpl.java:813)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.appendNotification(TransactionChangeRecorder.java:315)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.processObjectNotification(TransactionChangeRecorder.java:280)
+	at org.eclipse.emf.transaction.impl.TransactionChangeRecorder.notifyChanged(TransactionChangeRecorder.java:236)
+	at com.yattasolutions.obf.nh.l$a.notifyChanged(SourceFile:129)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at com.yattasolutions.obf.ig.c.b(SourceFile:82)
+	at com.yattasolutions.obf.ig.c.a(SourceFile:73)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:165)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:129)
+	at com.yattasolutions.obf.ig.a.a(SourceFile:93)
+	at com.yattasolutions.obf.ig.a$1.H(SourceFile:86)
+	at com.yattasolutions.obf.ig.a$a.run(SourceFile:201)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.yattasolutions.codegen 2 0 2022-11-23 10:03:40.276
+!MESSAGE Compared generated code with originally reverse engineered code successfully.
+!SUBENTRY 1 unknown 2 0 2022-11-23 10:03:40.276
+!MESSAGE OK
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.276
+!MESSAGE No element found for Declaration in DBManager.java @94.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.276
+!MESSAGE No element found for Declaration in DBManager.java @291.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.276
+!MESSAGE No element found for Declaration in DBManager.java @213.
+!SUBENTRY 1 unknown 2 0 2022-11-23 10:03:40.276
+!MESSAGE OK
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @94.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt_has_Patient.java @464.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt_has_Patient.java @991.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt_has_Patient.java @1176.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @1576.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt_has_Patient.java @1468.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @628.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt_has_Patient.java @1641.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt_has_Patient.java @1068.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt_has_Patient.java @1265.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt_has_Patient.java @1397.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt_has_Patient.java @1564.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt_has_Patient.java @1961.
+!SUBENTRY 1 unknown 2 0 2022-11-23 10:03:40.277
+!MESSAGE OK
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @94.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @470.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @454.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @420.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @1492.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @1576.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @1745.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @628.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @1920.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @2101.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @2272.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @2584.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @1349.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @1570.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @2429.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @1669.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @1840.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @2023.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @2200.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @2359.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @2512.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @1249.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Arzt.java @2877.
+!SUBENTRY 1 unknown 2 0 2022-11-23 10:03:40.277
+!MESSAGE OK
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @94.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @454.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @420.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @1053.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @1576.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @1325.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @628.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @1501.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @1683.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @1863.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @2050.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @1137.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @1249.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @1421.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @1605.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @1783.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @1962.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @2363.
+!SUBENTRY 1 unknown 2 0 2022-11-23 10:03:40.277
+!MESSAGE OK
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @94.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @478.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @454.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @420.
+!SUBENTRY 1 unknown 2 0 2022-11-23 10:03:40.277
+!MESSAGE OK
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @94.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @478.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @454.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @420.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @1223.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @1576.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @1510.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @628.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @1685.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @1866.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @2033.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @2367.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @2210.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @1317.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @1434.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @1605.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @1788.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @1959.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @2138.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @2297.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Altenpfleger.java @2664.
+!SUBENTRY 1 unknown 2 0 2022-11-23 10:03:40.277
+!MESSAGE OK
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @94.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @454.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Patient.java @420.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @1030.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @1296.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @1576.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @1785.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in DBManager.java @628.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @1605.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @1136.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @1386.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @1705.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @1529.
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 85 2022-11-23 10:03:40.277
+!MESSAGE No element found for Declaration in Dienst.java @2075.
+
+!ENTRY unknown 2 0 2022-11-23 10:04:11.707
+!MESSAGE OK
+!SUBENTRY 1 com.yattasolutions.codegen.reverse 2 16 2022-11-23 10:04:11.707
+!MESSAGE Parser: No complete match found (parsing '/sample/src/main/resources/fxml/Adresse.fxml').
+
+!ENTRY unknown 2 0 2022-11-23 10:04:11.708
+!MESSAGE OK
+!SUBENTRY 1 com.yattasolutions.codegen.reverse 2 16 2022-11-23 10:04:11.708
+!MESSAGE Parser: No complete match found (parsing '/sample/src/main/resources/fxml/Arzt.fxml').
+
+!ENTRY unknown 2 0 2022-11-23 10:04:11.708
+!MESSAGE OK
+!SUBENTRY 1 com.yattasolutions.codegen.reverse 2 16 2022-11-23 10:04:11.708
+!MESSAGE Parser: No complete match found (parsing '/sample/src/main/resources/fxml/Altenpfleger.fxml').
+
+!ENTRY unknown 2 0 2022-11-23 10:04:11.708
+!MESSAGE OK
+!SUBENTRY 1 com.yattasolutions.codegen.reverse 2 16 2022-11-23 10:04:11.708
+!MESSAGE Parser: No complete match found (parsing '/sample/src/main/resources/fxml/Arzt_has_Patient.fxml').
+
+!ENTRY unknown 2 0 2022-11-23 10:04:11.709
+!MESSAGE OK
+!SUBENTRY 1 com.yattasolutions.codegen.reverse 2 16 2022-11-23 10:04:11.709
+!MESSAGE Parser: No complete match found (parsing '/sample/src/main/resources/fxml/Dienst.fxml').
+
+!ENTRY unknown 2 0 2022-11-23 10:04:11.709
+!MESSAGE OK
+!SUBENTRY 1 com.yattasolutions.codegen.reverse 2 16 2022-11-23 10:04:11.709
+!MESSAGE Parser: No complete match found (parsing '/sample/src/main/resources/fxml/Patient.fxml').
+
+!ENTRY unknown 2 0 2022-11-23 10:04:11.710
+!MESSAGE OK
+!SUBENTRY 1 com.yattasolutions.codegen.reverse 2 16 2022-11-23 10:04:11.710
+!MESSAGE Parser: No complete match found (parsing '/sample/src/main/resources/fxml/Menu.fxml').
+
+!ENTRY unknown 2 0 2022-11-23 10:04:11.710
+!MESSAGE OK
+!SUBENTRY 1 com.yattasolutions.codegen.reverse 2 16 2022-11-23 10:04:11.710
+!MESSAGE Parser: No complete match found (parsing '/sample/src/main/resources/fxml/Start.fxml').
+
+!ENTRY unknown 2 0 2022-11-23 10:05:03.768
+!MESSAGE OK
+!SUBENTRY 1 com.yattasolutions.codegen.reverse 2 16 2022-11-23 10:05:03.768
+!MESSAGE Parser: No complete match found (parsing '/sample/src/main/resources/fxml/Adresse.fxml').
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:15:52.119
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:15:53.174
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-23 10:15:54.302
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:182)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:139)
+	at com.yattasolutions.obf.hm.r.fillShape(SourceFile:90)
+	at org.eclipse.draw2d.Shape.paintFill(Shape.java:195)
+	at org.eclipse.draw2d.Shape.paintFigure(Shape.java:143)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1118)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1209)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Viewport.paintClientArea(Viewport.java:160)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:168)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.RedrawWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4589)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4582)
+	at org.eclipse.draw2d.NativeGraphicsSource.getGraphics(NativeGraphicsSource.java:48)
+	at org.eclipse.draw2d.DeferredUpdateManager.getGraphics(DeferredUpdateManager.java:147)
+	at org.eclipse.draw2d.DeferredUpdateManager.repairDamage(DeferredUpdateManager.java:313)
+	at org.eclipse.draw2d.DeferredUpdateManager.performUpdate(DeferredUpdateManager.java:195)
+	at org.eclipse.draw2d.DeferredUpdateManager$UpdateRequest.run(DeferredUpdateManager.java:44)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:827)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:860)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:836)
+	at org.eclipse.ui.internal.SaveableHelper.waitForBackgroundSaveJobs(SaveableHelper.java:442)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:660)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:479)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:474)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.save(WorkbenchWindow.java:566)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.savePart(PartServiceImpl.java:1445)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1181)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1042)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1961)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-23 10:15:54.303
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:182)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:139)
+	at com.yattasolutions.obf.hm.r.fillShape(SourceFile:90)
+	at org.eclipse.draw2d.Shape.paintFill(Shape.java:195)
+	at org.eclipse.draw2d.Shape.paintFigure(Shape.java:143)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1118)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1209)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Viewport.paintClientArea(Viewport.java:160)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:168)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.RedrawWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4589)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4582)
+	at org.eclipse.draw2d.NativeGraphicsSource.getGraphics(NativeGraphicsSource.java:48)
+	at org.eclipse.draw2d.DeferredUpdateManager.getGraphics(DeferredUpdateManager.java:147)
+	at org.eclipse.draw2d.DeferredUpdateManager.repairDamage(DeferredUpdateManager.java:313)
+	at org.eclipse.draw2d.DeferredUpdateManager.performUpdate(DeferredUpdateManager.java:195)
+	at org.eclipse.draw2d.DeferredUpdateManager$UpdateRequest.run(DeferredUpdateManager.java:44)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:827)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:860)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:836)
+	at org.eclipse.ui.internal.SaveableHelper.waitForBackgroundSaveJobs(SaveableHelper.java:442)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:660)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:479)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:474)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.save(WorkbenchWindow.java:566)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.savePart(PartServiceImpl.java:1445)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1181)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1042)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1961)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-23 10:15:54.304
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:182)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:139)
+	at com.yattasolutions.obf.hm.r.fillShape(SourceFile:90)
+	at org.eclipse.draw2d.Shape.paintFill(Shape.java:195)
+	at org.eclipse.draw2d.Shape.paintFigure(Shape.java:143)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1118)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1209)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Viewport.paintClientArea(Viewport.java:160)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:168)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.RedrawWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4589)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4582)
+	at org.eclipse.draw2d.NativeGraphicsSource.getGraphics(NativeGraphicsSource.java:48)
+	at org.eclipse.draw2d.DeferredUpdateManager.getGraphics(DeferredUpdateManager.java:147)
+	at org.eclipse.draw2d.DeferredUpdateManager.repairDamage(DeferredUpdateManager.java:313)
+	at org.eclipse.draw2d.DeferredUpdateManager.performUpdate(DeferredUpdateManager.java:195)
+	at org.eclipse.draw2d.DeferredUpdateManager$UpdateRequest.run(DeferredUpdateManager.java:44)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:827)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:860)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:836)
+	at org.eclipse.ui.internal.SaveableHelper.waitForBackgroundSaveJobs(SaveableHelper.java:442)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:660)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:479)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:474)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.save(WorkbenchWindow.java:566)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.savePart(PartServiceImpl.java:1445)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1181)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1042)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1961)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-23 10:15:54.305
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:182)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:139)
+	at com.yattasolutions.obf.hm.r.fillShape(SourceFile:90)
+	at org.eclipse.draw2d.Shape.paintFill(Shape.java:195)
+	at org.eclipse.draw2d.Shape.paintFigure(Shape.java:143)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1118)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1209)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Viewport.paintClientArea(Viewport.java:160)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:168)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.RedrawWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4589)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4582)
+	at org.eclipse.draw2d.NativeGraphicsSource.getGraphics(NativeGraphicsSource.java:48)
+	at org.eclipse.draw2d.DeferredUpdateManager.getGraphics(DeferredUpdateManager.java:147)
+	at org.eclipse.draw2d.DeferredUpdateManager.repairDamage(DeferredUpdateManager.java:313)
+	at org.eclipse.draw2d.DeferredUpdateManager.performUpdate(DeferredUpdateManager.java:195)
+	at org.eclipse.draw2d.DeferredUpdateManager$UpdateRequest.run(DeferredUpdateManager.java:44)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:827)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:860)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:836)
+	at org.eclipse.ui.internal.SaveableHelper.waitForBackgroundSaveJobs(SaveableHelper.java:442)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:660)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:479)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:474)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.save(WorkbenchWindow.java:566)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.savePart(PartServiceImpl.java:1445)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1181)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1042)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1961)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-23 10:15:54.306
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:182)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:139)
+	at com.yattasolutions.obf.hm.r.fillShape(SourceFile:90)
+	at org.eclipse.draw2d.Shape.paintFill(Shape.java:195)
+	at org.eclipse.draw2d.Shape.paintFigure(Shape.java:143)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1118)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1209)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Viewport.paintClientArea(Viewport.java:160)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:168)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.RedrawWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4589)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4582)
+	at org.eclipse.draw2d.NativeGraphicsSource.getGraphics(NativeGraphicsSource.java:48)
+	at org.eclipse.draw2d.DeferredUpdateManager.getGraphics(DeferredUpdateManager.java:147)
+	at org.eclipse.draw2d.DeferredUpdateManager.repairDamage(DeferredUpdateManager.java:313)
+	at org.eclipse.draw2d.DeferredUpdateManager.performUpdate(DeferredUpdateManager.java:195)
+	at org.eclipse.draw2d.DeferredUpdateManager$UpdateRequest.run(DeferredUpdateManager.java:44)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:827)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:860)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:836)
+	at org.eclipse.ui.internal.SaveableHelper.waitForBackgroundSaveJobs(SaveableHelper.java:442)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:660)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:479)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:474)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.save(WorkbenchWindow.java:566)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.savePart(PartServiceImpl.java:1445)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1181)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1042)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1961)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-23 10:15:54.307
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:182)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:139)
+	at com.yattasolutions.obf.hm.r.fillShape(SourceFile:90)
+	at org.eclipse.draw2d.Shape.paintFill(Shape.java:195)
+	at org.eclipse.draw2d.Shape.paintFigure(Shape.java:143)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1118)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1209)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Viewport.paintClientArea(Viewport.java:160)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:168)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.RedrawWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4589)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4582)
+	at org.eclipse.draw2d.NativeGraphicsSource.getGraphics(NativeGraphicsSource.java:48)
+	at org.eclipse.draw2d.DeferredUpdateManager.getGraphics(DeferredUpdateManager.java:147)
+	at org.eclipse.draw2d.DeferredUpdateManager.repairDamage(DeferredUpdateManager.java:313)
+	at org.eclipse.draw2d.DeferredUpdateManager.performUpdate(DeferredUpdateManager.java:195)
+	at org.eclipse.draw2d.DeferredUpdateManager$UpdateRequest.run(DeferredUpdateManager.java:44)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:827)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:860)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:836)
+	at org.eclipse.ui.internal.SaveableHelper.waitForBackgroundSaveJobs(SaveableHelper.java:442)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:660)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:479)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:474)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.save(WorkbenchWindow.java:566)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.savePart(PartServiceImpl.java:1445)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1181)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1042)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1961)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-11-23 10:15:54.307
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:182)
+	at org.eclipse.swt.graphics.Pattern.<init>(Pattern.java:139)
+	at com.yattasolutions.obf.hm.r.fillShape(SourceFile:90)
+	at org.eclipse.draw2d.Shape.paintFill(Shape.java:195)
+	at org.eclipse.draw2d.Shape.paintFigure(Shape.java:143)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1118)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1209)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Viewport.paintClientArea(Viewport.java:160)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:168)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.RedrawWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4589)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4582)
+	at org.eclipse.draw2d.NativeGraphicsSource.getGraphics(NativeGraphicsSource.java:48)
+	at org.eclipse.draw2d.DeferredUpdateManager.getGraphics(DeferredUpdateManager.java:147)
+	at org.eclipse.draw2d.DeferredUpdateManager.repairDamage(DeferredUpdateManager.java:313)
+	at org.eclipse.draw2d.DeferredUpdateManager.performUpdate(DeferredUpdateManager.java:195)
+	at org.eclipse.draw2d.DeferredUpdateManager$UpdateRequest.run(DeferredUpdateManager.java:44)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$26(ProgressManager.java:827)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:860)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:836)
+	at org.eclipse.ui.internal.SaveableHelper.waitForBackgroundSaveJobs(SaveableHelper.java:442)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:660)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:479)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:474)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.save(WorkbenchWindow.java:566)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.savePart(PartServiceImpl.java:1445)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1181)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1042)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1961)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2022-11-23 10:15:54.843
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2022-11-23 10:15:54.843
+!MESSAGE Error in file:/C:/Users/Kunde/.p2/org.eclipse.equinox.p2.repository/cache/835586443 at line 19913, column 26: Duplicate singleton element in element "repository": <references size="2">
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:16:37.531
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:16:38.423
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2022-11-23 10:16:39.966
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=495
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:16:41.689
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:16:42.412
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:16:42.767
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-11-23 10:16:43.870
+!MESSAGE No repository found at http://www.objectaid.com/update/current.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:16:46.885
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:16:47.591
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:16:47.951
+!MESSAGE Using unsafe http transport to retrieve http://www.objectaid.com/update/current, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-11-23 10:16:56.505
+!MESSAGE No repository found at http://www.objectaid.com/update/current.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:17:13.260
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:17:14.180
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2022-11-23 10:17:26.913
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=4489098
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:18:59.256
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:19:00.160
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:19:38.606
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:19:39.557
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+!SESSION 2022-11-23 10:19:54.639 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-11-23 10:20:00.658
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-23 10:20:00.658
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-23 10:20:00.658
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-11-23 10:20:00.990
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-23 10:20:02.968
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kunde'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-23 10:20:03.075
+!MESSAGE 
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:21:26.059
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:21:26.991
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/egit/updates/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2022-11-23 10:21:28.645
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2022-11-23 10:21:28.645
+!MESSAGE Error in file:/C:/Users/Kunde/.p2/org.eclipse.equinox.p2.repository/cache/835586443 at line 19913, column 26: Duplicate singleton element in element "repository": <references size="2">
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2022-11-23 10:21:31.941
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=171
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:21:42.679
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,com.umlet.plugin,15.0.0 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-11-23 10:21:42.680
+!MESSAGE The digest algorithms (md5) used to verify org.eclipse.update.feature,umlet-eclipse-feature,15.0.0 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-11-23 10:22:03.184
+!MESSAGE An internal error occurred during: "Check server availability".
+!STACK 0
+java.lang.RuntimeException: The plugin could not be started. Please restart Eclipse.
+	at com.yattasolutions.platform.marketplace.client.MarketplaceClientPlugin.getDefault(MarketplaceClientPlugin.java:245)
+	at com.yattasolutions.platform.marketplace.client.account.CheckServerAvailabilityJob.run(CheckServerAvailabilityJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-11-23 10:22:03.767 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/Kunde/Desktop/s3/DB1/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-11-23 10:22:10.158
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-23 10:22:10.158
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-23 10:22:10.158
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-11-23 10:22:10.487
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-23 10:22:12.421
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kunde'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-23 10:22:12.519
+!MESSAGE 
+
+!ENTRY org.eclipse.ui 4 0 2022-11-23 10:40:07.109
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Control.getShell(Control.java:1546)
+	at com.baselet.plugin.gui.Editor$3$1.run(Editor.java:188)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2022-11-23 10:41:18.462
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Control.getShell(Control.java:1546)
+	at com.baselet.plugin.gui.Editor$3$1.run(Editor.java:188)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2022-11-23 10:41:18.463
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Control.getShell(Control.java:1546)
+	at com.baselet.plugin.gui.Editor$3$1.run(Editor.java:188)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2022-11-23 10:52:45.318
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Control.getShell(Control.java:1546)
+	at com.baselet.plugin.gui.Editor$3$1.run(Editor.java:188)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2022-11-23 10:52:45.320
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Control.getShell(Control.java:1546)
+	at com.baselet.plugin.gui.Editor$3$1.run(Editor.java:188)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-11-23 10:59:47.135
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/sample/target/classes/image.class)[275]: java.lang.Exception: A resource exists with a different case: '/sample/target/classes/image.class'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.File.create(File.java:109)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFileContents(AbstractImageBuilder.java:887)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:866)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:194)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:615)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:214)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:295)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:213)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2022-11-23 10:59:47.135
+!MESSAGE A resource exists with a different case: '/sample/target/classes/image.class'.
+!STACK 0
+java.lang.Exception: A resource exists with a different case: '/sample/target/classes/image.class'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.File.create(File.java:109)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFileContents(AbstractImageBuilder.java:887)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:866)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:194)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:615)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:214)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:295)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:213)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-11-23 11:02:10.869
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/sample/target/classes/image.class)[275]: java.lang.Exception: A resource exists with a different case: '/sample/target/classes/image.class'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.File.create(File.java:109)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFileContents(AbstractImageBuilder.java:887)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:866)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:194)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:615)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:214)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:295)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:213)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2022-11-23 11:02:10.869
+!MESSAGE A resource exists with a different case: '/sample/target/classes/image.class'.
+!STACK 0
+java.lang.Exception: A resource exists with a different case: '/sample/target/classes/image.class'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.File.create(File.java:109)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFileContents(AbstractImageBuilder.java:887)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:866)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:194)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:615)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:214)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:295)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:213)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-11-23 11:03:06.742 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-11-23 11:03:10.374
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-23 11:03:10.374
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-23 11:03:10.374
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-11-23 11:03:10.726
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-23 11:03:13.218
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kunde'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-23 11:03:13.343
+!MESSAGE 
+
+!ENTRY org.eclipse.ui 4 0 2022-11-23 11:47:54.477
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Control.getShell(Control.java:1546)
+	at com.baselet.plugin.gui.Editor$3$1.run(Editor.java:188)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.umlet.plugin 4 0 2022-11-23 12:55:54.059
+!MESSAGE com.umlet.plugin : Cannot invoke "java.util.List.iterator()" because the return value of "com.baselet.gui.command.ClipBoard.paste()" is null
+!STACK 0
+java.lang.Throwable: java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because the return value of "com.baselet.gui.command.ClipBoard.paste()" is null
+	at com.baselet.gui.command.Paste.execute(Paste.java:31)
+	at com.baselet.gui.command.Controller.executeCommand(Controller.java:26)
+	at com.baselet.gui.menu.MenuFactory$1.run(MenuFactory.java:178)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+	at com.baselet.plugin.MainPlugin.showAndLogError(MainPlugin.java:59)
+	at com.baselet.plugin.MainPlugin$2.uncaughtException(MainPlugin.java:78)
+	at java.base/java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1083)
+	at java.base/java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1078)
+	at java.desktop/java.awt.EventDispatchThread.processException(EventDispatchThread.java:222)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:214)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
+!ENTRY org.eclipse.ui 4 0 2022-11-23 13:37:20.058
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Control.getShell(Control.java:1546)
+	at com.baselet.plugin.gui.Editor$3$1.run(Editor.java:188)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2022-11-23 13:48:58.276 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-11-23 13:49:01.817
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-23 13:49:01.817
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-11-23 13:49:01.817
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-11-23 13:49:02.109
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-23 13:49:04.276
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kunde'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-11-23 13:49:04.391
+!MESSAGE 

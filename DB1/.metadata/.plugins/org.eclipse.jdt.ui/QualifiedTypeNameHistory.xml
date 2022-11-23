@@ -20,5 +20,8 @@
     <fullyQualifiedTypeName name="altenpfleger.sample.model.Adresse"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.AnchorPane"/>
     <fullyQualifiedTypeName name="javafx.scene.Parent"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Tooltip"/>
+    <fullyQualifiedTypeName name="javafx.application.Application"/>
     <fullyQualifiedTypeName name="altenpfleger.sample.MainApp"/>
+    <fullyQualifiedTypeName name="javafx.scene.input.MouseEvent"/>
 </qualifiedTypeNameHistroy>
