@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
-        "to_upper_case.h": "c"
+        "to_upper_case.h": "c",
+        "stdio.h": "c"
     }
 }
