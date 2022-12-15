@@ -329,7 +329,7 @@ public class AdresseController implements Initializable {
 
 	    	Optional<ButtonType> result = alert.showAndWait();
 	    	if (result.get() == ButtonType.OK){
-	    		String querey = "delete from Adresse where id_arzt=" + a.getId_adresse();
+	    		String querey = "delete from Adresse where id_adresse=" + a.getId_adresse();
 	    		
 	    		try {
 	    			DBManager.sendQuery(querey);

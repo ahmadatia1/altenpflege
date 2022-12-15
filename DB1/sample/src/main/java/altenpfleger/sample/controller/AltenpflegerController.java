@@ -666,8 +666,8 @@ public class AltenpflegerController implements Initializable {
     	
     	
     	
-		String queryString = "INSERT INTO altenpfleger (id_altenpfleger, anrede, nachname, vorname, TO_CHAR(geburtsdatum,'DD.MM.YYYY'), mail, tel)"
-		+ " VALUES ("+ a.getId_altenpfleger()+ ",'" + a.getAnrede() + "','" + a.getNachname() + "','" + a.getVorname() + "','" + a.getGeburtsdatum()  + "','" + a.getMail() + "'," + a.getTel() + ")";
+		String queryString = "INSERT INTO altenpfleger (id_altenpfleger, anrede, nachname, vorname, geburtsdatum, mail, tel) "
+		+ " VALUES ("+ a.getId_altenpfleger()+ ",'" + a.getAnrede() + "','" + a.getNachname() + "','" + a.getVorname() + "','" + a.getGeburtsdatum()  + "','" + a.getMail() + "', " + a.getTel() + ")";
 		System.out.print(queryString);
     	try {
     		

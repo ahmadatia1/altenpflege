@@ -103,7 +103,7 @@ public class ArztController implements Initializable {
 		    	if (result.get() == ButtonType.OK){
 		    		
 		    		try {
-		    			String querey = "update Artz"
+		    			String querey = "update arzt"
 		    					+ " Set anrede='" + event.getNewValue() + "'" 
 		    					+ " where id_arzt='" + event.getRowValue().getId_arzt()+"'";
 		    			DBManager.sendQuery(querey);
@@ -160,7 +160,7 @@ public class ArztController implements Initializable {
 		    	if (result.get() == ButtonType.OK){
 		    		
 		    		try {
-		    			String querey = "update Artz"
+		    			String querey = "update arzt"
 		    					+ " Set nachname='" + event.getNewValue() + "'" 
 		    					+ " where id_arzt='" + event.getRowValue().getId_arzt()+"'";
 		    			DBManager.sendQuery(querey);
@@ -212,7 +212,7 @@ public class ArztController implements Initializable {
 		    	if (result.get() == ButtonType.OK){
 		    		
 		    		try {
-		    			String querey = "update Artz"
+		    			String querey = "update arzt"
 		    					+ " Set vorname='" + event.getNewValue() + "'" 
 		    					+ " where id_arzt='" + event.getRowValue().getId_arzt()+"'";
 		    			DBManager.sendQuery(querey);
@@ -267,7 +267,7 @@ public class ArztController implements Initializable {
 		    	if (result.get() == ButtonType.OK){
 		    		
 		    		try {
-		    			String querey = "update Artz"
+		    			String querey = "update arzt"
 		    					+ " Set mail='" + event.getNewValue() + "'" 
 		    					+ " where id_arzt='" + event.getRowValue().getId_arzt()+"'";
 		    			DBManager.sendQuery(querey);
@@ -319,7 +319,7 @@ public class ArztController implements Initializable {
 		    	if (result.get() == ButtonType.OK){
 		    		
 		    		try {
-		    			String querey = "update Artz"
+		    			String querey = "update arzt"
 		    					+ " Set tel='" + event.getNewValue() + "'" 
 		    					+ " where id_arzt='" + event.getRowValue().getId_arzt()+"'";
 		    			DBManager.sendQuery(querey);
@@ -373,7 +373,7 @@ public class ArztController implements Initializable {
 		    	if (result.get() == ButtonType.OK){
 		    		
 		    		try {
-		    			String querey = "update Artz"
+		    			String querey = "update arzt"
 		    					+ " Set spezialtaet='" + event.getNewValue() + "'" 
 		    					+ " where id_arzt='" + event.getRowValue().getId_arzt()+"'";
 		    			DBManager.sendQuery(querey);
@@ -425,7 +425,7 @@ public class ArztController implements Initializable {
 		    	if (result.get() == ButtonType.OK){
 		    		
 		    		try {
-		    			String querey = "update Artz"
+		    			String querey = "update arzt"
 		    					+ " Set vertretung_id_arzt='" + event.getNewValue() + "'" 
 		    					+ " where id_arzt='" + event.getRowValue().getId_arzt()+"'";
 		    			DBManager.sendQuery(querey);
@@ -484,7 +484,7 @@ public class ArztController implements Initializable {
 
 	    	Optional<ButtonType> result = alert.showAndWait();
 	    	if (result.get() == ButtonType.OK){
-	    		String querey = "delete from Artz where id_arzt=" + a.getId_arzt();
+	    		String querey = "delete from arzt where id_arzt=" + a.getId_arzt();
 	    		
 	    		try {
 	    			DBManager.sendQuery(querey);
